@@ -6,6 +6,13 @@ local isAlive = true     --boolean
 local a = nil            --no value or invalid value
 ```
 
+It is not an error to access a non-initialized variable; you just get the special value nil as the result:
+
+```lua
+print(b)
+--nil
+```
+
 <route lang="yaml">
 meta:
   title: Variables

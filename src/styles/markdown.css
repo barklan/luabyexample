@@ -11,7 +11,7 @@
 
 html:not(.dark) .prose {
   --prism-foreground: #393a34;
-  --prism-background: #fbfbfb;
+  --prism-background: #f8f8f8;
   --prism-comment: #a0ada0;
   --prism-string: #b56959;
   --prism-literal: #2f8a89;
@@ -29,6 +29,7 @@ html:not(.dark) .prose {
   --prism-decorator: #bd8f8f;
   --prism-regex: #ab5e3f;
   --prism-json-property: #698c96;
+  --prism-selection-background: #e0e0e0;
 }
 
 html.dark .prose {

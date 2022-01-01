@@ -1,26 +1,45 @@
-While loop
+### While
 
 ```lua
-local i = 0
-local count = 0
+i = 1
+while (i <= 10) do
+  io.write(i)
+  i = i + 1
 
-while i <= 10 do
-  count = count + 1
+  -- break throws you out of a loop
+  -- continue doesn't exist in Lua
+  if i == 8 then break end
 end
-
-print("count is " .. count)
---count is 7
+print()
+```
+```
+1234567
 ```
 
-<br>For loop
+### Repeat untill
 
 ```lua
-count = 0
-for i=1, 5 do
-    count = count + 1
+repeat
+  io.write("Enter your guess : ")
+
+  -- Gets input from the user
+  guess = io.read()
+
+  -- Either surround the number with quotes, or convert the string into
+  -- a number
+until tonumber(guess) == 15
+```
+
+### For
+
+```lua
+-- Value to start with, value to stop at, increment each loop
+for i = 1, 10, 1 do
+  io.write(i)
 end
-print("count is " .. count)
---count is 5
+```
+```
+12345678910
 ```
 
 <route lang="yaml">

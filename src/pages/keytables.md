@@ -16,6 +16,18 @@ teamA:12
 teamB:15
 ```
 
+Insert
+
+```lua
+teams["teamC"] = 1
+```
+
+Delete
+
+```lua
+teams["teamA"] = nil
+```
+
 <route lang="yaml">
 meta:
   title: Key Tables

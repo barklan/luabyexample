@@ -4,5 +4,5 @@ button:
   toggle_dark: Toggle dark mode
   toggle_langs: Change languages
 intro:
-  desc: Lua is a lightweight high-level programming language designed primarily for embedded use in applications.
+  desc: Lua is a lightweight high-level dynamic programming language designed primarily for embedded use in applications.
 not-found: Not found
