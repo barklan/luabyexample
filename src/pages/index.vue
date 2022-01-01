@@ -15,55 +15,55 @@ const { t } = useI18n()
         <router-link class="link mx-2" to="/hello-world" :title="t('button.about')">Hello World</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/variables" :title="t('button.about')">Variables</router-link>
+        <router-link class="link mx-2" to="/variables">Variables</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/numbers" :title="t('button.about')">Numbers</router-link>
+        <router-link class="link mx-2" to="/numbers">Numbers</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/strings" :title="t('button.about')">Strings</router-link>
+        <router-link class="link mx-2" to="/strings">Strings</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/ifelse" :title="t('button.about')">If/Else</router-link>
+        <router-link class="link mx-2" to="/ifelse">If/Else</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/whilefor" :title="t('button.about')">While/For</router-link>
+        <router-link class="link mx-2" to="/whilefor">While/For</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/functions" :title="t('button.about')">Functions</router-link>
+        <router-link class="link mx-2" to="/functions">Functions</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/tables" :title="t('button.about')">Tables</router-link>
+        <router-link class="link mx-2" to="/tables">Tables</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/keytables" :title="t('button.about')">Key Tables</router-link>
+        <router-link class="link mx-2" to="/keytables">Key Tables</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/metatables" :title="t('button.about')">Meta Tables</router-link>
+        <router-link class="link mx-2" to="/metatables">Meta Tables</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/varfuncs" :title="t('button.about')">Variadic Functions</router-link>
+        <router-link class="link mx-2" to="/varfuncs">Variadic Functions</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/scope" :title="t('button.about')">Variable Scope</router-link>
+        <router-link class="link mx-2" to="/scope">Variable Scope</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/stringfunc" :title="t('button.about')">String Functions</router-link>
+        <router-link class="link mx-2" to="/stringfunc">String Functions</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/math" :title="t('button.about')">Math</router-link>
+        <router-link class="link mx-2" to="/math">Math</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/random" :title="t('button.about')">Random Numbers</router-link>
+        <router-link class="link mx-2" to="/random">Random Numbers</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/files" :title="t('button.about')">Files</router-link>
+        <router-link class="link mx-2" to="/files">Files</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/modules" :title="t('button.about')">Modules</router-link>
+        <router-link class="link mx-2" to="/modules">Modules</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/oop" :title="t('button.about')">Object Oriented Programming</router-link>
+        <router-link class="link mx-2" to="/oop">Object Oriented Programming</router-link>
       </li>
       <li>
         <router-link

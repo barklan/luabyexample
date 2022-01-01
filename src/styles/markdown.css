@@ -12,12 +12,16 @@
 html:not(.dark) .prose {
   --prism-foreground: #393a34;
   --prism-background: #f8f8f8;
-  --prism-comment: #a0ada0;
-  --prism-string: #b56959;
+  /* --prism-comment: #a0ada0; */
+  --prism-comment: #a8a29e; /* warm-gray-400 */
+  /* --prism-string: #b56959; */
+  --prism-string: #d97706; /* amber-600 */
   --prism-literal: #2f8a89;
   --prism-number: #296aa3;
-  --prism-keyword: #1c6b48;
-  --prism-function: #6c7834;
+  /* --prism-keyword: #1c6b48; */
+  --prism-keyword: #6366f1; /* indigo-500 */
+  /* --prism-function: #6c7834; */
+  --prism-function: #b45309;
   --prism-boolean: #1c6b48;
   --prism-constant: #a65e2b;
   --prism-deleted: #a14f55;
@@ -25,7 +29,8 @@ html:not(.dark) .prose {
   --prism-builtin: #ab5959;
   --prism-property: #b58451;
   --prism-namespace: #b05a78;
-  --prism-punctuation: #8e8f8b;
+  --prism-punctuation: #666666;
+  --prism-operator: var(--prism-punctuation);
   --prism-decorator: #bd8f8f;
   --prism-regex: #ab5e3f;
   --prism-json-property: #698c96;
@@ -35,14 +40,18 @@ html:not(.dark) .prose {
 html.dark .prose {
   --prism-foreground: #d4cfbf;
   --prism-background: #151515;
-  --prism-comment: #758575;
-  --prism-string: #d48372;
+  /* --prism-comment: #758575; */
+  --prism-comment: #78716c; /* warm-gray-500 */
+  /* --prism-string: #d48372; */
+  --prism-string: #d97706; /* amber-600 */
   --prism-literal: #429988;
-  --prism-keyword: #4d9375;
+  /* --prism-keyword: #4d9375; */
+  --prism-keyword: #818cf8;
   --prism-boolean: #1c6b48;
   --prism-number: #6394bf;
   --prism-variable: #c2b36e;
-  --prism-function: #a1b567;
+  /* --prism-function: #a1b567; */
+  --prism-function: #fcd34d;
   --prism-deleted: #a14f55;
   --prism-class: #54b1bf;
   --prism-builtin: #e0a569;

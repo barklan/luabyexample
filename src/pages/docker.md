@@ -2,7 +2,7 @@ Minimal docker image (~10MB):
 
 <div class="grid grid-cols-2 gap-2 lt-sm:grid-cols-1">
 
-```Dockerfile
+```dockerfile
 # Dockerfile
 FROM alpine:3.15.0
 

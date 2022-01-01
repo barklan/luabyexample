@@ -10,7 +10,7 @@ io.write("Number of Items : ", #colors, "\n")
 ```
 
 
-Note that numeration starts with 1 - not 0 like in most languages.
+Note that numeration **starts with 1** - not 0 like in most languages.
 
 Iterate though table:
 

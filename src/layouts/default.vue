@@ -9,6 +9,9 @@ const toggleLocales = () => {
   const locales = availableLocales
   locale.value = locales[(locales.indexOf(locale.value) + 1) % locales.length]
 }
+
+window.scrollTo(0,0);
+
 </script>
 
 <template>

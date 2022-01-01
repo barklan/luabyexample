@@ -2,19 +2,19 @@
 
 Search for a library
 
-```console
+```bash
 $ luarocks search luasec
 ```
 
 Install a library
 
-```console
+```bash
 $ luarocks install --local luasec
 ```
 
 You can install Lua libraries locally or on a systemwide basis. A local install indicates that the Lua library you install is available to you, but no other user of the computer. If you're developing a Lua application, then you probably want to install a library to a project directory instead. In Luarocks terminology, this is a tree. Your default tree when installing libraries locally is `$HOME/.luarocks`, but you can redefine it arbitrarily.
 
-```console
+```bash
 $ mkdir local
 $ luarocks --tree=./local install cmark
 ```
@@ -37,19 +37,19 @@ require("lfs")
 
 Show information about an installed rock
 
-```console
+```bash
 $ luarocks show luasec
 ```
 
 Get a list of installed rocks
 
-```console
+```bash
 $ luarocks list
 ```
 
 Remove a rock
 
-```console
+```bash
 $ luarocks remove --local cmark
 ```
 
