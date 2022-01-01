@@ -1,18 +1,21 @@
 ```lua
 local colors = { "red", "green", "blue" }
 
-print(colors[1]) --red
-print(colors[2]) --green
-print(colors[3]) --blue
+print(colors[1])
+print(colors[2])
+print(colors[3])
 
 io.write("Number of Items : ", #colors, "\n")
---3
+```
+```
+red
+green
+blue
+Number of Items : 3
 ```
 
 
-Note that numeration **starts with 1** - not 0 like in most languages.
-
-Iterate though table:
+Note that numeration **starts with 1** - not 0 like in most languages. To iterate though table:
 
 ```lua
 for i=1, #colors do

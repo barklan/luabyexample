@@ -5,13 +5,13 @@ local teams = {
 }
 
 print(teams["teamA"])
--- 12
 
 for key,value in pairs(teams) do
     print(key .. ":" .. value)
 end
 ```
 ```
+12
 teamA:12
 teamB:15
 ```

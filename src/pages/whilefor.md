@@ -10,7 +10,6 @@ while (i <= 10) do
   -- continue doesn't exist in Lua
   if i == 8 then break end
 end
-print()
 ```
 ```
 1234567
@@ -33,7 +32,7 @@ until tonumber(guess) == 15
 ### For
 
 ```lua
--- Value to start with, value to stop at, increment each loop
+-- start, stop, increment each loop
 for i = 1, 10, 1 do
   io.write(i)
 end

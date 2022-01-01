@@ -4,7 +4,7 @@ This is how to spawn external processes in Lua
 local exit_code = os.execute("uname -s")
 --Linux
 
-print(exit_code)  --> 10
+print(exit_code)
 --0
 ```
 

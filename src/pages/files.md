@@ -39,5 +39,5 @@ file:close()
 
 <route lang="yaml">
 meta:
-  title: Files
+  title: File IO
 </route>

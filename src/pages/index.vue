@@ -42,6 +42,9 @@ const { t } = useI18n()
         <router-link class="link mx-2" to="/metatables">Meta Tables</router-link>
       </li>
       <li>
+        <router-link class="link mx-2" to="/tablesort">Sorting Tables</router-link>
+      </li>
+      <li>
         <router-link class="link mx-2" to="/varfuncs">Variadic Functions</router-link>
       </li>
       <li>
@@ -51,16 +54,28 @@ const { t } = useI18n()
         <router-link class="link mx-2" to="/stringfunc">String Functions</router-link>
       </li>
       <li>
+        <router-link class="link mx-2" to="/gmatch">Pattern Matching</router-link>
+      </li>
+      <li>
         <router-link class="link mx-2" to="/math">Math</router-link>
       </li>
       <li>
         <router-link class="link mx-2" to="/random">Random Numbers</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/files">Files</router-link>
+        <router-link class="link mx-2" to="/time">Time</router-link>
+      </li>
+      <li>
+        <router-link class="link mx-2" to="/files">File IO</router-link>
+      </li>
+      <li>
+        <router-link class="link mx-2" to="/walk">Walk a Directory</router-link>
       </li>
       <li>
         <router-link class="link mx-2" to="/modules">Modules</router-link>
+      </li>
+      <li>
+        <router-link class="link mx-2" to="/coroutines">Coroutines</router-link>
       </li>
       <li>
         <router-link class="link mx-2" to="/oop">Object Oriented Programming</router-link>
@@ -76,13 +91,21 @@ const { t } = useI18n()
         <router-link class="link mx-2" to="/execute" :title="t('button.about')">Executing Processes</router-link>
       </li>
       <li>
+        <router-link
+          class="link mx-2"
+          to="/luarocks"
+          :title="t('button.about')"
+        >LuaRocks (package manager)</router-link>
+      </li>
+      <li>
         <router-link class="link mx-2" to="/docker" :title="t('button.about')">Docker</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/embedding" :title="t('button.about')">Embedding in other languages</router-link>
-      </li>
-      <li>
-        <router-link class="link mx-2" to="/luarocks" :title="t('button.about')">LuaRocks (package manager)</router-link>
+        <router-link
+          class="link mx-2"
+          to="/embedding"
+          :title="t('button.about')"
+        >Embedding in other languages</router-link>
       </li>
     </ul>
   </div>

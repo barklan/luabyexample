@@ -22,8 +22,8 @@ print("Hello, World!")
 </div>
 
 ```bash
-docker build -t lua .
-docker run \
+$ docker build -t lua .
+$ docker run \
 -v "$(pwd)":/workdir \
 lua hello.lua
 ```
