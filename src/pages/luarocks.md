@@ -30,7 +30,7 @@ require("cmark")
 If a library you've installed is compiled, resulting in a .so file (a .dll on Windows and .dylib on macOS), then you must add to your cpath instead. For instance, the luafilesystem library provides the file lfs.so:
 
 ```lua
-package.cpath = package.cpath .. ';local/share/lua/5.3/?.lua'
+package.cpath = package.cpath .. ';local/share/lua/5.3/?.so'
 
 require("lfs")
 ```

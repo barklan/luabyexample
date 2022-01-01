@@ -2,6 +2,8 @@
 title: Hello World
 ---
 
+You can try lua [interactively](https://www.lua.org/cgi-bin/demo).
+
 ```lua
 -- This is a comment.
 print("Hello, World!")

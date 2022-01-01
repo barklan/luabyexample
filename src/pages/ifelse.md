@@ -1,5 +1,4 @@
 ```lua
---number comparisions
 local age = 10
 if age < 18 then
     print("under 18")
