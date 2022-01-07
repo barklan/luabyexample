@@ -2,7 +2,6 @@
 import { isDark, toggleDark } from '~/composables'
 
 const { t, availableLocales, locale } = useI18n()
-const title = useRouter().currentRoute.value.meta.title
 
 const toggleLocales = () => {
   // change to some real logic
