@@ -88,7 +88,7 @@ const { t } = useI18n()
         >Environment Variables</router-link>
       </li>
       <li>
-        <router-link class="link mx-2" to="/execute" :title="t('button.about')">Executing Processes</router-link>
+        <router-link class="link mx-2" to="/execute" :title="t('button.about')">Spawning Processes</router-link>
       </li>
       <li>
         <router-link
