@@ -107,6 +107,13 @@ const { t } = useI18n()
           :title="t('button.about')"
         >Embedding in other languages</router-link>
       </li>
+      <li>
+        <router-link
+          class="link mx-2"
+          to="/conflang"
+          :title="t('button.about')"
+        >Lua for configuration</router-link>
+      </li>
     </ul>
   </div>
 </template>
