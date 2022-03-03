@@ -17,10 +17,6 @@ Both [MPV](https://github.com/mpv-player/mpv/blob/master/DOCS/man/lua.rst) and [
 
 Redis allows [adding functionality with Lua](https://redis.com/ebook/part-3-next-steps/chapter-11-scripting-redis-with-lua/)
 
-### And more...
-
-There is even [browser](https://github.com/luakit/luakit) and [code editor](https://github.com/rxi/lite) written in Lua.
-
 <route lang="yaml">
 meta:
   title: Lua for configuration
