@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isDark, toggleDark } from '~/composables'
+import { isDark, toggleDark, nextPage } from '~/composables'
 
 const { t, availableLocales, locale } = useI18n()
 const title = useRouter().currentRoute.value.meta.title
@@ -10,7 +10,7 @@ const toggleLocales = () => {
   locale.value = locales[(locales.indexOf(locale.value) + 1) % locales.length]
 }
 
-window.scrollTo(0,0);
+window.scrollTo(0, 0);
 
 </script>
 
@@ -19,9 +19,12 @@ window.scrollTo(0,0);
     <div class="flex grid grid-cols-4 grid-rows-1 gap-1">
       <div class="mb-8 mt-0 col-span-3">
         <h3 class="text-xl pl-3">
-          <span class="">
-            <router-link class="link" to="/" :title="t('button.home')"><a>Lua by Example</a></router-link>
-          </span> / {{ title }}
+          <span class>
+            <router-link class="link" to="/" :title="t('button.home')">
+              <a>Lua by Example</a>
+            </router-link>
+          </span>
+          / {{ title }}
         </h3>
       </div>
       <nav class="text-xl mt-1 text-true-gray-400 col-span-1 text-right">
@@ -50,5 +53,11 @@ window.scrollTo(0,0);
       </nav>
     </div>
     <router-view class="text-left max-w-screen-sm m-auto" />
+    <button
+      class="icon-btn mx-2 my-6 text-lg"
+      @click="nextPage($router)"
+    >
+      Next
+    </button>
   </main>
 </template>
