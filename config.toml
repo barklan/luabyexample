@@ -11,4 +11,4 @@ enableGitInfo = true
 [params]
 BookTheme = 'light'
 BookRepo = 'https://github.com/barklan/luabyexample'
-BookEditPath = 'edit/hugo'
+BookEditPath = 'edit/main'

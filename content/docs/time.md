@@ -11,6 +11,8 @@ weight: 18
 
 # Time
 
+## Manipulating time
+
 Two functions, `time` and `date`, do all date and time queries in Lua.
 
 ```lua
@@ -31,7 +33,7 @@ print(t.hour)
 3
 ```
 
-You can pretty format time:
+## Formatting
 
 ```lua
 print(os.date("today is %A, in %B"))
@@ -63,7 +65,7 @@ All formatting tags:
 %%	the character `%´
 ```
 
-### Sleep
+## Sleeping
 
 Lua doesn't provide a standard `sleep` function, but there are several ways to implement one.
 

@@ -13,14 +13,15 @@ weight: 21
 
 A Module is like a library full of functions and variables.
 
-<div class="grid grid-cols-2 gap-2 lt-sm:grid-cols-1">
-
+{{< columns >}}
 ```lua
 -- main.lua
 local info = require "info"
 
 info.valueOf("John")
 ```
+
+<--->
 
 ```lua
 -- info.lua
@@ -32,10 +33,7 @@ end
 
 return m
 ```
+{{< /columns >}}
 
-</div>
-
-```bash
-$ lua main.lua
-Value: John
-```
+    $ lua main.lua
+    Value: John

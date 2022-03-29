@@ -45,8 +45,4 @@ print(coroutine.status(co))
 dead
 ```
 
-
-
-<div class="border-2 rounded-md p-2 border-dashed border-gray-500">
-Unlike "real" multithreading, coroutines are non preemptive. While a coroutine is running, it cannot be stopped from the outside. It only suspends execution when it explicitly requests so (through a call to `yield`).
-</div>
+> Unlike "real" multithreading, coroutines are non preemptive. While a coroutine is running, it cannot be stopped from the outside. It only suspends execution when it explicitly requests so (through a call to `yield`).
