@@ -41,3 +41,5 @@ Delete
 ```lua
 teams["teamA"] = nil
 ```
+
+{{< button relref="docs/tables/metatables"  >}}Next: Meta Tables{{< /button >}}

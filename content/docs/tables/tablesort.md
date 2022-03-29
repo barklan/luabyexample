@@ -35,3 +35,5 @@ end
 8
 12
 ```
+
+{{< button relref="docs/varfuncs"  >}}Next: Variadic Functions{{< /button >}}

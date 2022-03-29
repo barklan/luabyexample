@@ -47,4 +47,4 @@ It can be used as a drop-in replacement for Lua.
 You can search this site by pressing `/` and using `Tab` key.
 {{< /hint >}}
 
-{{< button relref="docs/hello-world/"  >}}Start With "Hello World" program!{{< /button >}}
+{{< button relref="docs/hello-world"  >}}Start With "Hello World" program!{{< /button >}}

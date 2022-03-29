@@ -47,3 +47,5 @@ end
 key: from, value: world
 key: to, value: Lua
 ```
+
+{{< button relref="docs/math"  >}}Next: Math{{< /button >}}

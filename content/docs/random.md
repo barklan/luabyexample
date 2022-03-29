@@ -33,3 +33,5 @@ print(math.random(20, 100))
 the command multiple times within a given second you'll get the same values back.
 You can try using more entropic sources for seeding like `/dev/random`.
 {{< /hint >}}
+
+{{< button relref="docs/time"  >}}Next: Time{{< /button >}}

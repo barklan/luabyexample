@@ -50,3 +50,5 @@ math.tointeger
 math.type
 math.ult
 ```
+
+{{< button relref="docs/random"  >}}Next: Random Numbers{{< /button >}}

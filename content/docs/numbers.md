@@ -38,3 +38,5 @@ print(10 / 2) -- 5
 print(2 ^ 3)  -- 4
 print(5 % 2)  -- 1
 ```
+
+{{< button relref="docs/strings"  >}}Next: Strings{{< /button >}}

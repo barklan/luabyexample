@@ -64,3 +64,5 @@ alter_inside('c')
 5       11      7
 5       6       11
 ```
+
+{{< button relref="docs/stringfunc"  >}}Next: String Functions{{< /button >}}

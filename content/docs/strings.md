@@ -55,3 +55,5 @@ print(string.format("not true = %s", tostring(not true)))
 ```
 not true = false
 ```
+
+{{< button relref="docs/ifelse"  >}}Next: If/Else{{< /button >}}

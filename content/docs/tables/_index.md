@@ -107,3 +107,5 @@ end
 green
 blue
 ```
+
+{{< button relref="docs/tables/keytables"  >}}Next: Key Tables{{< /button >}}

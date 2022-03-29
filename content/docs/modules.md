@@ -41,3 +41,5 @@ return m
 $ lua main.lua
 Value: John
 ```
+
+{{< button relref="docs/coroutines"  >}}Next: Coroutines{{< /button >}}

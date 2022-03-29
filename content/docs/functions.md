@@ -35,3 +35,5 @@ info("Kenneth", 12, "Jupiter")
 ```
 Kenneth is 12 years old.
 ```
+
+{{< button relref="docs/tables"  >}}Next: Tables{{< /button >}}

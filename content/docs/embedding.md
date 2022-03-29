@@ -62,3 +62,5 @@ True
 >>> lua.eval('python.builtins.str(4)') == '4'
 True
 ```
+
+{{< button relref="docs/conflang" >}}Next: Lua for Configuration{{< /button >}}

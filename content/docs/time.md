@@ -96,3 +96,5 @@ socket = require("socket")
 
 socket.sleep(0.2)
 ```
+
+{{< button relref="docs/files"  >}}Next: File IO{{< /button >}}

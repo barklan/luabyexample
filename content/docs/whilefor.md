@@ -55,3 +55,5 @@ end
 ```
 12345678910
 ```
+
+{{< button relref="docs/functions"  >}}Next: Functions{{< /button >}}

@@ -69,3 +69,5 @@ true
 8
 10
 ```
+
+{{< button relref="docs/tables/tablesort"  >}}Next: Sorting Tables{{< /button >}}

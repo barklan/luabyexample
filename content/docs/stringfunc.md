@@ -61,3 +61,5 @@ io.write(t[2], "\n", t[3])
 went
 for
 ```
+
+{{< button relref="docs/gmatch"  >}}Next: Pattern Matching{{< /button >}}

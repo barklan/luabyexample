@@ -50,3 +50,5 @@ print(file:read("*a"))
 
 file:close()
 ```
+
+{{< button relref="docs/walk"  >}}Next: Walk a Directory{{< /button >}}
