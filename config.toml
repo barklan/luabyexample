@@ -1,0 +1,22 @@
+baseURL = 'https://luabyexample.org/'
+languageCode = 'en-us'
+title = "Lua by Example"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    guessSyntax = false
+    lineNos = false
+    style = 'native'
+    tabWidth = 4
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
+
+enableGitInfo = true
+
+[params]
+BookTheme = 'auto'
+BookRepo = 'https://github.com/barklan/luabyexample'
+BookEditPath = 'edit/main'
