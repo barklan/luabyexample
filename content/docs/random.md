@@ -28,4 +28,6 @@ print(math.random(20, 100))
 --54
 ```
 
-> `os.time()` has resolution down to seconds which means that if you invoke the command multiple times within a given second you'll get the same values back. You can try using more entropic sources for seeding like `/dev/random`.
+{{< hint warning >}}
+`os.time()` has resolution down to seconds which means that if you invoke the command multiple times within a given second you'll get the same values back. You can try using more entropic sources for seeding like `/dev/random`.
+{{< /hint >}}
