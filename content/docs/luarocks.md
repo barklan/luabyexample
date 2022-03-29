@@ -12,13 +12,13 @@ For lots of cool Lua packages see [awesome-lua](https://github.com/JaredSartin/a
 Search for a library
 
 ```
-$ luarocks search luasec
+luarocks search luasec
 ```
 
 Install a library
 
 ```
-$ luarocks install --local luasec
+luarocks install --local luasec
 ```
 
 You can install Lua libraries locally or on a systemwide basis.
@@ -30,8 +30,8 @@ Your default tree when installing libraries locally is `$HOME/.luarocks`,
 but you can redefine it arbitrarily.
 
 ```
-$ mkdir local
-$ luarocks --tree=./local install cmark
+mkdir local
+luarocks --tree=./local install cmark
 ```
 
 You can use the library in your Lua code by defining the package.path variable
@@ -56,17 +56,17 @@ require("lfs")
 Show information about an installed rock
 
 ```
-$ luarocks show luasec
+luarocks show luasec
 ```
 
 Get a list of installed rocks
 
 ```
-$ luarocks list
+luarocks list
 ```
 
 Remove a rock
 
 ```
-$ luarocks remove --local cmark
+luarocks remove --local cmark
 ```

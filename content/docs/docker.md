@@ -40,6 +40,6 @@ print("Hello, World!")
 Build and run:
 
 ```
-$ docker build -t lua .
-$ docker run -v "$(pwd)":/workdir lua hello.lua
+docker build -t lua .
+docker run -v "$(pwd)":/workdir lua hello.lua
 ```
