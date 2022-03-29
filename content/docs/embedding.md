@@ -9,6 +9,8 @@ weight: 28
 # bookSearchExclude: false
 ---
 
+# Embedding
+
 Lua complements other languages very well. It is a language as dynamic as Python, but LuaJIT compiles it to very fast machine code, sometimes faster than many statically compiled languages for computational code. The language runtime is very small and carefully designed for embedding (some libraries provide complete Lua VM implementations).
 
 ### Go

@@ -9,6 +9,8 @@ weight: 26
 # bookSearchExclude: false
 ---
 
+# LuaRocks (package manager)
+
 [LuaRocks](https://luarocks.org/) is the package manager for Lua modules. On most distributions it is available as `luarocks`. For lots of cool Lua packages see [awesome-lua](https://github.com/JaredSartin/awesome-lua).
 
 Search for a library

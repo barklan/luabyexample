@@ -9,6 +9,8 @@ weight: 2
 # bookSearchExclude: false
 ---
 
+# Variables
+
 ```lua
 local x = 10             --number
 local x = 10.1           --number

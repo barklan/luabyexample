@@ -9,6 +9,8 @@ weight: 21
 # bookSearchExclude: false
 ---
 
+# Modules
+
 A Module is like a library full of functions and variables.
 
 <div class="grid grid-cols-2 gap-2 lt-sm:grid-cols-1">

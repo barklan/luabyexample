@@ -9,6 +9,8 @@ weight: 15
 # bookSearchExclude: false
 ---
 
+# Pattern Matching
+
 The `string.gmatch` function will take an input string and a pattern. This pattern describes on what to actually get back. This function will return a function which is actually an iterator.
 
 ```lua

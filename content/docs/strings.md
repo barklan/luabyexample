@@ -9,6 +9,8 @@ weight: 4
 # bookSearchExclude: false
 ---
 
+# Strings
+
 ```lua
 local greeting = "Hello, "
 local name = "Kenneth Sparks"

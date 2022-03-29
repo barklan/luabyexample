@@ -9,6 +9,8 @@ weight: 20
 # bookSearchExclude: false
 ---
 
+# Walk a Directory
+
 We can use lfs ([LuaFileSystem](https://github.com/keplerproject/luafilesystem)) module to make a walk function. To install lfs use [luarocks](/luarocks):
 
 ```bash

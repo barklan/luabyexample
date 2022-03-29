@@ -9,6 +9,8 @@ weight: 10
 # bookSearchExclude: false
 ---
 
+# Meta Tables
+
 Used to define how operations on tables should be carried out in regards to adding, subtracting, multiplying, dividing, concatenating, or comparing tables.
 
 ```lua

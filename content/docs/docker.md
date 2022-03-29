@@ -9,6 +9,8 @@ weight: 27
 # bookSearchExclude: false
 ---
 
+# Docker
+
 Minimal docker image (~10MB):
 
 <div class="grid grid-cols-2 gap-2 lt-sm:grid-cols-1">

@@ -9,6 +9,8 @@ weight: 18
 # bookSearchExclude: false
 ---
 
+# Time
+
 Two functions, `time` and `date`, do all date and time queries in Lua.
 
 ```lua

@@ -9,6 +9,8 @@ weight: 22
 # bookSearchExclude: false
 ---
 
+# Coroutines
+
 A new coroutine is created by using the `coroutine.create` function with a single argument: a function to be executed. Returns new coroutine, an object with type `thread`.
 
 ```lua

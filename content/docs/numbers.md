@@ -9,6 +9,8 @@ weight: 3
 # bookSearchExclude: false
 ---
 
+# Numbers
+
 The number type represents **real** (double-precision floating-point) numbers. Lua has no integer type, as it does not need it.
 
 ```lua

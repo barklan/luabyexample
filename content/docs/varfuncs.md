@@ -9,6 +9,8 @@ weight: 12
 # bookSearchExclude: false
 ---
 
+# Variadic Functions
+
 Variadic Function receive unknown number of parameters
 
 ```lua

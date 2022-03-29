@@ -9,6 +9,8 @@ weight: 7
 # bookSearchExclude: false
 ---
 
+# Functions
+
 ```lua
 function calculateTax(price)
     return price * 0.21

@@ -9,6 +9,7 @@ weight: 13
 # bookSearchExclude: false
 ---
 
+# Variable Scope
 
 Variables have different scopes. Once the end of the scope is reached the values in that scope are no longer accessible
 

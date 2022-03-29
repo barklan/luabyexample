@@ -9,6 +9,8 @@ weight: 16
 # bookSearchExclude: false
 ---
 
+# Math
+
 Lua provides common [mathematical functions](http://www.lua.org/manual/5.4/manual.html#6.7) out of the box.
 
 ```lua

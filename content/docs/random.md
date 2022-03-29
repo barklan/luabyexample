@@ -9,6 +9,8 @@ weight: 17
 # bookSearchExclude: false
 ---
 
+# Random Numbers
+
 ```lua
 -- Used to set a seed value for random.
 math.randomseed(os.time())

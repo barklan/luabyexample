@@ -9,6 +9,8 @@ weight: 11
 # bookSearchExclude: false
 ---
 
+# Sorting Tables
+
 ```lua
 local t = {
     { id = 1, num = 3},

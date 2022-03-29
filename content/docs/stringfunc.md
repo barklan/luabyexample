@@ -9,6 +9,8 @@ weight: 14
 # bookSearchExclude: false
 ---
 
+# String Functions
+
 Lua provides multiple string functions:
 
 ```

@@ -9,6 +9,8 @@ weight: 1
 # bookSearchExclude: false
 ---
 
+# Hello World
+
 You can try lua [interactively](https://www.lua.org/cgi-bin/demo).
 
 ```lua
