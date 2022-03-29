@@ -11,7 +11,9 @@ weight: 22
 
 # Coroutines
 
-A new coroutine is created by using the `coroutine.create` function with a single argument: a function to be executed. Returns new coroutine, an object with type `thread`.
+A new coroutine is created by using the `coroutine.create` function
+with a single argument: a function to be executed.
+Returns new coroutine, an object with type `thread`.
 
 ```lua
 co = coroutine.create(
@@ -23,17 +25,19 @@ co = coroutine.create(
 print(co)
 print(coroutine.status(co))
 ```
+
 ```
 thread: 0x5629ba941d58
 suspended
 ```
 
-A coroutine can be in one of three different states: **suspended**, **running**, and **dead**. When we create a coroutine, it starts in the suspended state.
-
+A coroutine can be in one of three different states: **suspended**, **running**, and **dead**.
+When we create a coroutine, it starts in the suspended state.
 
 ```lua
 coroutine.resume(co)
 ```
+
 ```
 honk
 ```
@@ -41,10 +45,13 @@ honk
 ```lua
 print(coroutine.status(co))
 ```
+
 ```
 dead
 ```
 
 {{< hint info >}}
-Unlike "real" multithreading, coroutines are non preemptive. While a coroutine is running, it cannot be stopped from the outside. It only suspends execution when it explicitly requests so (through a call to `yield`).
+Unlike "real" multithreading, coroutines are non preemptive.
+While a coroutine is running, it cannot be stopped from the outside.
+It only suspends execution when it explicitly requests so (through a call to `yield`).
 {{< /hint >}}

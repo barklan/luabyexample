@@ -27,6 +27,7 @@ for i, v in ipairs(t) do
     print(v.num)
 end
 ```
+
 ```
 3
 5

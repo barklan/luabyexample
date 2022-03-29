@@ -16,14 +16,16 @@ Minimal docker image (~10MB):
 {{< columns >}}
 `Dockerfile`
 
-    FROM alpine:3.15.0
+```
+FROM alpine:3.15.0
 
-    RUN apk update \
-        && apk add --no-cache lua5.4
+RUN apk update \
+    && apk add --no-cache lua5.4
 
-    WORKDIR /workdir
+WORKDIR /workdir
 
-    ENTRYPOINT [ "lua5.4" ]
+ENTRYPOINT [ "lua5.4" ]
+```
 
 <--->
 
@@ -32,9 +34,12 @@ Minimal docker image (~10MB):
 ```lua
 print("Hello, World!")
 ```
+
 {{< /columns >}}
 
 Build and run:
 
-    $ docker build -t lua .
-    $ docker run -v "$(pwd)":/workdir lua hello.lua
+```
+$ docker build -t lua .
+$ docker run -v "$(pwd)":/workdir lua hello.lua
+```

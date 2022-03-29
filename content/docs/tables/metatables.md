@@ -11,7 +11,8 @@ weight: 10
 
 # Meta Tables
 
-Used to define how operations on tables should be carried out in regards to adding, subtracting, multiplying, dividing, concatenating, or comparing tables.
+Used to define how operations on tables should be carried out in regards to
+adding, subtracting, multiplying, dividing, concatenating, or comparing tables.
 
 ```lua
 -- Create a table and put default values in it
@@ -59,6 +60,7 @@ for z = 1, #addTable do
   print(addTable[z])
 end
 ```
+
 ```
 true
 2

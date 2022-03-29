@@ -28,6 +28,7 @@ end
 ```
 
 Comparison operators in Lua:
+
 ```
 ==, <, >, <=, >=, ~= (inequality)
 ```

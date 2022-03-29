@@ -11,7 +11,8 @@ weight: 3
 
 # Numbers
 
-The number type represents **real** (double-precision floating-point) numbers. Lua has no integer type, as it does not need it.
+The number type represents **real** (double-precision floating-point) numbers.
+Lua has no integer type, as it does not need it.
 
 ```lua
 local a = 3

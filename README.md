@@ -12,7 +12,9 @@ All pages are in `content/docs`.
 
 ## Contributing
 
-All `pre-commit` checks must pass before merge can be made. To install use it locally, install [`pre-commit`](https://pre-commit.com/) and run to enable git hooks:
+All `pre-commit` checks must pass before merge can be made.
+To install use it locally, install [`pre-commit`](https://pre-commit.com/)
+and run to enable git hooks:
 
 ```bash
 pre-commit install
@@ -25,4 +27,5 @@ Alternatively run on all files
 pre-commit run --all-files
 ```
 
-Please tag all markdown code blocks that contain lua with language code `lua`. For all other code blocks do not include language code at all.
+Please tag all markdown code blocks that contain lua with language code `lua`.
+For all other code blocks do not include language code at all.

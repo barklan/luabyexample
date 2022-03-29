@@ -13,12 +13,14 @@ weight: 19
 
 There are different ways to work with files:
 
-    r: Read only (default)
-    w: Overwrite or create a new file
-    a: Append or create a new file
-    r+: Read & write existing file
-    w+: Overwrite read or create a file
-    a+: Append read or create file
+```
+r: Read only (default)
+w: Overwrite or create a new file
+a: Append or create a new file
+r+: Read & write existing file
+w+: Overwrite read or create a file
+a+: Append read or create file
+```
 
 ```lua
 -- Create new file for reading and writing

@@ -81,6 +81,10 @@ repos:
         language: docker_image
         entry: redocly/openapi-cli lint docs/openapi.yml
         files: ^docs/openapi.yml$
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.31.1
+    hooks:
+      - id: markdownlint
 ci:
   autofix_commit_msg: |
     [pre-commit.ci] auto fixes from pre-commit.com hooks

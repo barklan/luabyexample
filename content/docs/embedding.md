@@ -11,7 +11,11 @@ weight: 28
 
 # Embedding
 
-Lua complements other languages very well. It is a language as dynamic as Python, but LuaJIT compiles it to very fast machine code, sometimes faster than many statically compiled languages for computational code. The language runtime is very small and carefully designed for embedding (some libraries provide complete Lua VM implementations).
+Lua complements other languages very well. It is a language as dynamic as Python,
+but LuaJIT compiles it to very fast machine code, sometimes faster than many statically
+compiled languages for computational code.
+The language runtime is very small and carefully designed for embedding
+(some libraries provide complete Lua VM implementations).
 
 ## Go
 
@@ -24,11 +28,11 @@ package main
 import "github.com/Shopify/go-lua"
 
 func main() {
-	l := lua.NewState()
-	lua.OpenLibraries(l)
-	if err := lua.DoString(l, `print("Hi!")`); err != nil {
-		panic(err)
-	}
+    l := lua.NewState()
+    lua.OpenLibraries(l)
+    if err := lua.DoString(l, `print("Hi!")`); err != nil {
+        panic(err)
+    }
 }
 ```
 
