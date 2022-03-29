@@ -11,7 +11,7 @@ weight: 6
 
 # While/For
 
-### While
+## While
 
 ```lua
 i = 1
@@ -24,11 +24,12 @@ while (i <= 10) do
   if i == 8 then break end
 end
 ```
+
 ```
 1234567
 ```
 
-### Repeat until
+## Repeat until
 
 ```lua
 repeat
@@ -42,7 +43,7 @@ repeat
 until tonumber(guess) == 15
 ```
 
-### For
+## For
 
 ```lua
 -- start, stop, increment each loop
@@ -50,6 +51,9 @@ for i = 1, 10, 1 do
   io.write(i)
 end
 ```
+
 ```
 12345678910
 ```
+
+{{< button relref="docs/functions"  >}}Next: Functions{{< /button >}}

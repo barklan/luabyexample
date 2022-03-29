@@ -23,6 +23,7 @@ print(name .. " is " .. age .. " years old")
 hi = "Hi!"
 io.write(string.len(hi), "\n")
 ```
+
 ```
 Hello, Kenneth Sparks
 Laurence is 19 years old
@@ -38,6 +39,7 @@ string that goes on for
 ever]]
 io.write(longString, "\n")
 ```
+
 ```
 I am a very very long
 string that goes on for
@@ -49,6 +51,9 @@ String formatting
 ```lua
 print(string.format("not true = %s", tostring(not true)))
 ```
+
 ```
 not true = false
 ```
+
+{{< button relref="docs/ifelse"  >}}Next: If/Else{{< /button >}}

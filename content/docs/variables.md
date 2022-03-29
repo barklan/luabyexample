@@ -25,3 +25,5 @@ It is not an error to access a non-initialized variable; you just get the specia
 print(b)
 --nil
 ```
+
+{{< button relref="docs/numbers"  >}}Next: Numbers{{< /button >}}

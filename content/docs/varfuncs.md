@@ -25,6 +25,9 @@ end
 
 io.write("Sum : ", getSum(1,2,3,4,5,6), "\n")
 ```
+
 ```
 Sum : 21
 ```
+
+{{< button relref="docs/scope"  >}}Next: Variable Scope{{< /button >}}

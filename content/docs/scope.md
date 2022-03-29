@@ -30,7 +30,8 @@ print(b)
 --10
 ```
 
-Any reference to a global name `var` is syntactically translated to `_ENV.var`. You can use `_ENV` tables to adjust your current chunk's environment
+Any reference to a global name `var` is syntactically translated to `_ENV.var`.
+You can use `_ENV` tables to adjust your current chunk's environment
 
 ```lua
 local function clone (t)
@@ -57,8 +58,11 @@ alter_inside('a')
 alter_inside('b')
 alter_inside('c')
 ```
+
 ```
 11      6       7
 5       11      7
 5       6       11
 ```
+
+{{< button relref="docs/stringfunc"  >}}Next: String Functions{{< /button >}}

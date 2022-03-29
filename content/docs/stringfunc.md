@@ -56,7 +56,10 @@ end
 local t = splitStr("I went for a walk.")
 io.write(t[2], "\n", t[3])
 ```
+
 ```
 went
 for
 ```
+
+{{< button relref="docs/gmatch"  >}}Next: Pattern Matching{{< /button >}}

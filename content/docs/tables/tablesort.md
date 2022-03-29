@@ -27,6 +27,7 @@ for i, v in ipairs(t) do
     print(v.num)
 end
 ```
+
 ```
 3
 5
@@ -34,3 +35,5 @@ end
 8
 12
 ```
+
+{{< button relref="docs/varfuncs"  >}}Next: Variadic Functions{{< /button >}}

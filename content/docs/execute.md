@@ -39,3 +39,5 @@ output = os.capture("uname -s")
 print(output)
 --Linux
 ```
+
+{{< button relref="docs/luarocks" >}}Next: LuaRocks{{< /button >}}

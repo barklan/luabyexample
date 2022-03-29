@@ -11,11 +11,12 @@ weight: 20
 
 # Walk a Directory
 
-We can use lfs ([LuaFileSystem](https://github.com/keplerproject/luafilesystem)) module to make a walk function. To install lfs use [luarocks](/luarocks):
+We can use lfs ([LuaFileSystem](https://github.com/keplerproject/luafilesystem))
+module to make a walk function. To install lfs use [luarocks](/luarocks):
 
 ```
-$ mkdir .cache
-$ luarocks --tree=./.cache install luafilesystem
+mkdir .cache
+luarocks --tree=./.cache install luafilesystem
 ```
 
 `walk` function takes two arguments:
@@ -50,7 +51,10 @@ for f in walk("src/styles") do
   print(f)
 end
 ```
+
 ```
 src/styles/main.css
 src/styles/markdown.css
 ```
+
+{{< button relref="docs/modules"  >}}Next: Modules{{< /button >}}

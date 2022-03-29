@@ -14,6 +14,7 @@ weight: 21
 A Module is like a library full of functions and variables.
 
 {{< columns >}}
+
 ```lua
 -- main.lua
 local info = require "info"
@@ -33,7 +34,12 @@ end
 
 return m
 ```
+
 {{< /columns >}}
 
-    $ lua main.lua
-    Value: John
+```
+$ lua main.lua
+Value: John
+```
+
+{{< button relref="docs/coroutines"  >}}Next: Coroutines{{< /button >}}

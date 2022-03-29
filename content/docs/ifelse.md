@@ -28,6 +28,7 @@ end
 ```
 
 Comparison operators in Lua:
+
 ```
 ==, <, >, <=, >=, ~= (inequality)
 ```
@@ -43,3 +44,5 @@ elseif not isAlive or age < 18 then
     print("either dead or under 18")
 end
 ```
+
+{{< button relref="docs/whilefor"  >}}Next: While/For{{< /button >}}
