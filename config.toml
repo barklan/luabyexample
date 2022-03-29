@@ -1,0 +1,14 @@
+baseURL = 'https://luabyexample.org/'
+languageCode = 'en-us'
+title = "Lua by Example"
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
+
+enableGitInfo = true
+
+[params]
+BookTheme = 'light'
+BookRepo = 'https://github.com/barklan/luabyexample'
+BookEditPath = 'edit/hugo'

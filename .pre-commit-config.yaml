@@ -1,0 +1,95 @@
+default_stages: [commit]
+exclude: ^resources/.*$
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: check-added-large-files
+      - id: trailing-whitespace
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-yaml
+      - id: detect-private-key
+      - id: check-json
+        exclude: ".vscode/tasks.json"
+      - id: check-case-conflict
+      # - id: no-commit-to-branch
+      - id: mixed-line-ending
+        args: ["--fix=no"]
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v2.21.2
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: v0.17.0
+    hooks:
+      - id: gitlint
+        args: ["--ignore=body-is-missing", "--contrib=contrib-title-conventional-commits", "--msg-filename"]
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.1.0
+    hooks:
+      - id: codespell
+        exclude: "^go.sum"
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.2.0
+    hooks:
+      - id: detect-secrets
+  - repo: https://github.com/zricethezav/gitleaks
+    rev: v8.5.1
+    hooks:
+      - id: gitleaks
+  - repo: https://github.com/yoheimuta/protolint
+    rev: v0.37.1
+    hooks:
+      - id: protolint
+  - repo: https://github.com/hadolint/hadolint
+    rev: v2.9.3
+    hooks:
+      - id: hadolint
+  - repo: https://github.com/barklan/git-hooks
+    rev: v0.0.20
+    hooks:
+      - id: go-test
+      - id: forbid-binary
+      - id: docker-compose-check
+  - repo: https://github.com/sqlfluff/sqlfluff
+    rev: 0.11.2
+    hooks:
+      - id: sqlfluff-lint
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.14.1
+    hooks:
+      - id: check-github-workflows
+      - id: check-gitlab-ci
+      - id: check-github-actions
+  - repo: local
+    hooks:
+      - id: golang-filenames
+        name: check go filenames
+        entry: go filenames must be snake-case
+        language: fail
+        files: '[a-z0-9_/]*[^a-z0-9_/]+[a-z0-9_]*\.go$'
+      - id: dotenv-linter
+        name: run dotenv linter
+        language: docker_image
+        entry: dotenvlinter/dotenv-linter --recursive
+        files: \.env$
+      - id: openapi-linter
+        name: validate openapi schema
+        language: docker_image
+        entry: redocly/openapi-cli lint docs/openapi.yml
+        files: ^docs/openapi.yml$
+ci:
+  autofix_commit_msg: |
+    [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+    for more information, see https://pre-commit.ci
+  autofix_prs: false
+  autoupdate_branch: ""
+  autoupdate_commit_msg: "[pre-commit.ci] pre-commit autoupdate"
+  autoupdate_schedule: monthly
+  # These require either docker or docker-compose.
+  skip: [dotenv-linter, openapi-linter, docker-compose-check]
+  submodules: false
