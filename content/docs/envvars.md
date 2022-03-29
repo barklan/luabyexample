@@ -20,7 +20,7 @@ assert(secret ~= nil, "SECRET not set")
 print(secret)
 ```
 
-```bash
+```
 $ SECRET=12345 lua envtest.lua
 12345
 ```

@@ -11,12 +11,14 @@ weight: 1
 
 # Hello World
 
-    -- This is a comment.
-    print("Hello, World!")
+```lua
+-- This is a comment.
+print("Hello, World!")
 
-    --[[
-        This is a
-        multi-line comment.
-    ]]
+--[[
+    This is a
+    multi-line comment.
+]]
+```
 
 To run the code put it in `hello.lua` and use `lua hello.lua`.

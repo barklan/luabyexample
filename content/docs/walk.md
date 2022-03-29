@@ -13,7 +13,7 @@ weight: 20
 
 We can use lfs ([LuaFileSystem](https://github.com/keplerproject/luafilesystem)) module to make a walk function. To install lfs use [luarocks](/luarocks):
 
-```bash
+```
 $ mkdir .cache
 $ luarocks --tree=./.cache install luafilesystem
 ```

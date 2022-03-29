@@ -17,7 +17,7 @@ Lua complements other languages very well. It is a language as dynamic as Python
 
 You can use either [yuin/gopher-lua](https://github.com/yuin/gopher-lua) or [Shopify/go-lua](https://github.com/Shopify/go-lua).
 
-```go
+```
 // main.go
 package main
 
@@ -32,14 +32,14 @@ func main() {
 }
 ```
 
-```bash
+```
 $ go run main.go
 Hi!
 ```
 
 ## Python
 
-```python
+```
 >>> import lupa
 >>> from lupa import LuaRuntime
 >>> lua = LuaRuntime(unpack_returned_tuples=True)

@@ -29,7 +29,9 @@ Minimal docker image (~10MB):
 
 `hello.lua`
 
-    print("Hello, World!")
+```lua
+print("Hello, World!")
+```
 {{< /columns >}}
 
 Build and run:

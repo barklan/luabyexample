@@ -24,3 +24,5 @@ Alternatively run on all files
 ```bash
 pre-commit run --all-files
 ```
+
+Please tag all markdown code blocks that contain lua with language code `lua`. For all other code blocks do not include language code at all.
