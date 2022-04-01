@@ -17,6 +17,6 @@ path = 'github.com/alex-shpak/hugo-book'
 enableGitInfo = true
 
 [params]
-BookTheme = 'auto'
+BookTheme = 'light'
 BookRepo = 'https://github.com/barklan/luabyexample'
 BookEditPath = 'edit/main'
