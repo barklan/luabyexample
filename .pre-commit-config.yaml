@@ -18,7 +18,7 @@ repos:
       - id: mixed-line-ending
         args: ["--fix=no"]
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v2.21.2
+    rev: v2.23.0
     hooks:
       - id: commitizen
         stages: [commit-msg]
@@ -37,7 +37,7 @@ repos:
     hooks:
       - id: detect-secrets
   - repo: https://github.com/zricethezav/gitleaks
-    rev: v8.5.1
+    rev: v8.5.3
     hooks:
       - id: gitleaks
   - repo: https://github.com/yoheimuta/protolint
@@ -45,7 +45,7 @@ repos:
     hooks:
       - id: protolint
   - repo: https://github.com/hadolint/hadolint
-    rev: v2.9.3
+    rev: v2.10.0
     hooks:
       - id: hadolint
   - repo: https://github.com/barklan/git-hooks
@@ -55,11 +55,11 @@ repos:
       - id: forbid-binary
       - id: docker-compose-check
   - repo: https://github.com/sqlfluff/sqlfluff
-    rev: 0.11.2
+    rev: untagged-0ddecca233f58d1186e1
     hooks:
       - id: sqlfluff-lint
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.14.1
+    rev: 0.14.2
     hooks:
       - id: check-github-workflows
       - id: check-gitlab-ci
