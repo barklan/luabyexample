@@ -35,7 +35,7 @@ print(y)
 
 
 print(10 / 2) -- 5
-print(2 ^ 3)  -- 4
+print(2 ^ 3)  -- 8
 print(5 % 2)  -- 1
 ```
 
