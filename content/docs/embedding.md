@@ -1,12 +1,6 @@
 ---
 title: "Embedding"
 weight: 28
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 
 # Embedding
@@ -43,6 +37,8 @@ Hi!
 
 ## Python
 
+One can use [lupa](https://github.com/scoder/lupa) package.
+
 ```python
 >>> import lupa
 >>> from lupa import LuaRuntime
@@ -62,5 +58,40 @@ True
 >>> lua.eval('python.builtins.str(4)') == '4'
 True
 ```
+
+## Rust
+
+Example uses [rlua](https://github.com/amethyst/rlua) - high level Lua bindings to Rust.
+
+```rust
+use std::f32;
+use std::iter::FromIterator;
+
+use rlua::{Lua};
+
+fn main() -> Result<()> {
+    let lua = Lua::new();
+
+    lua.context(|lua_ctx| {
+        let globals = lua_ctx.globals();
+
+        globals.set("string_var", "hello")?;
+        globals.set("int_var", 42)?;
+
+        lua_ctx.load(
+            r#"
+            print(string_var)
+            "#,
+        )
+        .exec()?;
+
+        Ok(())
+    })?;
+}
+```
+
+## .NET
+
+One can use [NLua](https://github.com/NLua/NLua) as a bridge between Lua and the .NET.
 
 {{< button relref="docs/conflang" >}}Next: Lua for Configuration{{< /button >}}
