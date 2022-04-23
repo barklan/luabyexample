@@ -1,19 +1,13 @@
 ---
 title: "Lua"
 weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 
-# Lua
-
-**Lua is a lightweight high-level dynamic programming language designed primarily for embedded use in applications.**
+### *Lua is a lightweight high-level dynamic programming language designed primarily for embedded use in applications.*
 
 You can try lua [interactively](https://www.lua.org/cgi-bin/demo). To install Lua use instructions for your system.
+There is also [LuaJIT project](https://luajit.org/) - a Just-In-Time Compiler for Lua.
+It can be used as a drop-in replacement for Lua.
 
 {{< tabs "uniqueid" >}}
 
@@ -39,9 +33,6 @@ package.
 {{< /tab >}}
 
 {{< /tabs >}}
-
-There is also [LuaJIT project](https://luajit.org/) - a Just-In-Time Compiler for Lua.
-It can be used as a drop-in replacement for Lua.
 
 {{< hint info >}}
 You can search this site by pressing `/` and using `Tab` key.

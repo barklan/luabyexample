@@ -28,7 +28,7 @@ for i, v in ipairs(t) do
 end
 ```
 
-```
+```txt {.output}
 3
 5
 7

@@ -14,7 +14,7 @@ weight: 20
 We can use lfs ([LuaFileSystem](https://github.com/keplerproject/luafilesystem))
 module to make a walk function. To install lfs use [luarocks](/luarocks):
 
-```
+```bash
 mkdir .cache
 luarocks --tree=./.cache install luafilesystem
 ```
@@ -52,7 +52,7 @@ for f in walk("src/styles") do
 end
 ```
 
-```
+```txt {.output}
 src/styles/main.css
 src/styles/markdown.css
 ```

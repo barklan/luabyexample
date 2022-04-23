@@ -26,7 +26,7 @@ print(co)
 print(coroutine.status(co))
 ```
 
-```
+```txt {.output}
 thread: 0x5629ba941d58
 suspended
 ```
@@ -38,7 +38,7 @@ When we create a coroutine, it starts in the suspended state.
 coroutine.resume(co)
 ```
 
-```
+```txt {.output}
 honk
 ```
 
@@ -46,7 +46,7 @@ honk
 print(coroutine.status(co))
 ```
 
-```
+```txt {.output}
 dead
 ```
 

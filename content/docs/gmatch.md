@@ -25,7 +25,7 @@ for match in ("#afdde6"):gmatch "%x%x" do
 end
 ```
 
-```
+```txt {.output}
 a
 b
 c
@@ -43,7 +43,7 @@ for k, v in string.gmatch(s, "(%w+)=(%w+)") do
 end
 ```
 
-```
+```txt {.output}
 key: from, value: world
 key: to, value: Lua
 ```

@@ -7,7 +7,7 @@ title = "Lua by Example"
     anchorLineNos = false
     guessSyntax = false
     lineNos = false
-    style = 'native'
+    style = 'perldoc'
     tabWidth = 4
 
 [module]
@@ -20,3 +20,5 @@ enableGitInfo = true
 BookTheme = 'light'
 BookRepo = 'https://github.com/barklan/luabyexample'
 BookEditPath = 'edit/main'
+BookLogo = 'logo.png'
+BookToC = false

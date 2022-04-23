@@ -11,13 +11,13 @@ For lots of cool Lua packages see [awesome-lua](https://github.com/JaredSartin/a
 
 Search for a library
 
-```
+```bash
 luarocks search luasec
 ```
 
 Install a library
 
-```
+```bash
 luarocks install --local luasec
 ```
 
@@ -29,7 +29,7 @@ In Luarocks terminology, this is a tree.
 Your default tree when installing libraries locally is `$HOME/.luarocks`,
 but you can redefine it arbitrarily.
 
-```
+```bash
 mkdir local
 luarocks --tree=./local install cmark
 ```
@@ -55,19 +55,19 @@ require("lfs")
 
 Show information about an installed rock
 
-```
+```bash
 luarocks show luasec
 ```
 
 Get a list of installed rocks
 
-```
+```bash
 luarocks list
 ```
 
 Remove a rock
 
-```
+```bash
 luarocks remove --local cmark
 ```
 

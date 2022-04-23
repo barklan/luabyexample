@@ -37,7 +37,7 @@ return m
 
 {{< /columns >}}
 
-```
+```bash
 $ lua main.lua
 Value: John
 ```

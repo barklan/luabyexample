@@ -27,11 +27,9 @@ else
 end
 ```
 
-Comparison operators in Lua:
-
-```
-==, <, >, <=, >=, ~= (inequality)
-```
+>Comparison operators in Lua:
+>
+>**==, <, >, <=, >=, ~= (inequality)**
 
 Combining Statements
 

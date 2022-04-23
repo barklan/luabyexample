@@ -1,12 +1,6 @@
 ---
 title: "Key Tables"
 weight: 9
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 
 # Key Tables
@@ -24,7 +18,7 @@ for key,value in pairs(teams) do
 end
 ```
 
-```
+```txt {.output}
 12
 teamA:12
 teamB:15

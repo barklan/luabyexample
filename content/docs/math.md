@@ -21,7 +21,7 @@ print(math.ceil(x))
 
 Full list:
 
-```
+```txt
 math.abs
 math.acos
 math.asin

@@ -16,7 +16,7 @@ Minimal docker image (~10MB):
 {{< columns >}}
 `Dockerfile`
 
-```
+```dockerfile
 FROM alpine:3.15.0
 
 RUN apk update \
@@ -39,7 +39,7 @@ print("Hello, World!")
 
 Build and run:
 
-```
+```bash
 docker build -t lua .
 docker run -v "$(pwd)":/workdir lua hello.lua
 ```
