@@ -13,7 +13,7 @@ All pages are in `content/docs`.
 ## Contributing
 
 All `pre-commit` checks must pass before merge can be made.
-To install use it locally, install [`pre-commit`](https://pre-commit.com/)
+To use it locally, install [`pre-commit`](https://pre-commit.com/)
 and enable git hooks:
 
 ```bash
