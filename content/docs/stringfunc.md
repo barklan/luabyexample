@@ -1,12 +1,6 @@
 ---
 title: "String Functions"
 weight: 14
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 
 # String Functions
