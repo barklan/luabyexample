@@ -51,4 +51,5 @@ You can search this site by pressing `/` and using `Tab` key. \
 For more info consult [Lua documentation](https://www.lua.org/docs.html).
 {{< /hint >}}
 
-{{< button relref="docs/hello-world"  >}}Start With "Hello World" program!{{< /button >}}
+{{< button relref="docs/hello-world" >}}Start With "Hello World" program!{{< /button >}}
+{{< button href="https://github.com/barklan/luabyexample" >}}GitHub{{< /button >}}
