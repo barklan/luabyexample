@@ -1,12 +1,6 @@
 ---
 title: "Variable Scope"
 weight: 13
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 
 # Variable Scope

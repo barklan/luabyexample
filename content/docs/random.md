@@ -1,12 +1,6 @@
 ---
 title: "Random Numbers"
 weight: 17
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 
 # Random Numbers

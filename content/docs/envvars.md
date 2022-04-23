@@ -1,12 +1,6 @@
 ---
 title: "Environment Variables"
 weight: 24
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 
 # Environment Variables
