@@ -42,21 +42,16 @@ You can use `_ENV` tables to adjust your current chunk's environment
 ```lua
 local function clone (t)
     local o = {}
-
     for k, v in pairs(t) do o[k] = v end
-
     return o
 end
 
 local function alter_inside (key)
     local _ENV = clone(_ENV)
-
     a = 5
     b = 6
     c = 7
-
     _ENV[key] = 11
-
     print(a, b, c)
 end
 

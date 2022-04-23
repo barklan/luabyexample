@@ -14,8 +14,11 @@ It can be used as a drop-in replacement for Lua.
 {{< tab "MacOS" >}}
 On MacOS Lua can be installed with Homebrew:
 
-    brew update
-    brew install lua
+```bash
+brew update
+brew install lua
+```
+
 {{< /tab >}}
 
 {{< tab "Linux" >}}
@@ -30,6 +33,15 @@ On Windows it can be installed either with
 [luaforwindows project](https://github.com/rjpcomputing/luaforwindows/releases) or
 [luarocks all-in-one](https://github.com/luarocks/luarocks/wiki/Installation-instructions-for-Windows)
 package.
+{{< /tab >}}
+
+{{< tab "Docker" >}}
+You can run Lua files using [barklan/lua](https://hub.docker.com/repository/docker/barklan/lua) image.
+
+```bash
+docker run --rm -it -v "$(pwd)":/workdir barklan/lua hello.lua
+```
+
 {{< /tab >}}
 
 {{< /tabs >}}

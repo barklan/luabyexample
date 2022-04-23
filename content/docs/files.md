@@ -1,12 +1,6 @@
 ---
 title: "File IO"
-weight: 19
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
+weight: 20
 ---
 
 # File IO
@@ -39,13 +33,9 @@ file:close()
 
 -- Open file for appending and reading
 file = io.open("test.lua", "a+")
-
 file:write("Even more text\n")
-
 file:seek("set", 0)
-
 print(file:read("*a"))
-
 file:close()
 ```
 
