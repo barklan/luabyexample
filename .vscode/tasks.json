@@ -15,15 +15,5 @@
 			"command": "bash -i run.sh up",
 			"isBackground": true,
 		},
-		{
-			"label": "r/update",
-			"type": "shell",
-			"command": "bash -i run.sh update",
-		},
-		{
-			"label": "r/newdoc",
-			"type": "shell",
-			"command": "bash -i run.sh newdoc",
-		},
     ],
 }
