@@ -61,7 +61,7 @@ for z = 1, #addTable do
 end
 ```
 
-```
+```txt {.output}
 true
 2
 4

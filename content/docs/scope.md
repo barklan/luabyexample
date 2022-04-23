@@ -19,7 +19,10 @@ function foo()
 end
 
 print(a)
---nil
+```
+
+```txt {.output}
+nil
 ```
 
 **Global** variables do not need declarations. You simply assign a value to a global variable to create it.
@@ -27,7 +30,10 @@ print(a)
 ```lua
 b = 10
 print(b)
---10
+```
+
+```txt {.output}
+10
 ```
 
 Any reference to a global name `var` is syntactically translated to `_ENV.var`.
@@ -59,7 +65,7 @@ alter_inside('b')
 alter_inside('c')
 ```
 
-```
+```txt {.output}
 11      6       7
 5       11      7
 5       6       11

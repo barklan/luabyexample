@@ -13,7 +13,7 @@ weight: 14
 
 Lua provides multiple string functions:
 
-```
+```txt
 string
 string.byte
 string.char
@@ -57,7 +57,7 @@ local t = splitStr("I went for a walk.")
 io.write(t[2], "\n", t[3])
 ```
 
-```
+```txt {.output}
 went
 for
 ```

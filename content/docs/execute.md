@@ -15,10 +15,13 @@ This is how to spawn external processes in Lua
 
 ```lua
 local exit_code = os.execute("uname -s")
---Linux
 
 print(exit_code)
---0
+```
+
+```txt {.output}
+Linux
+0
 ```
 
 If you want to capture the output
@@ -37,7 +40,10 @@ end
 
 output = os.capture("uname -s")
 print(output)
---Linux
+```
+
+```txt {.output}
+Linux
 ```
 
 {{< button relref="docs/luarocks" >}}Next: LuaRocks{{< /button >}}

@@ -20,7 +20,7 @@ local result = calculateTax(100)
 print(result)
 ```
 
-```
+```txt {.output}
 21.0
 ```
 
@@ -32,7 +32,7 @@ end
 info("Kenneth", 12, "Jupiter")
 ```
 
-```
+```txt {.output}
 Kenneth is 12 years old.
 ```
 

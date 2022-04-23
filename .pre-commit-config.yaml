@@ -36,51 +36,6 @@ repos:
     rev: v1.2.0
     hooks:
       - id: detect-secrets
-  - repo: https://github.com/zricethezav/gitleaks
-    rev: v8.5.1
-    hooks:
-      - id: gitleaks
-  - repo: https://github.com/yoheimuta/protolint
-    rev: v0.37.1
-    hooks:
-      - id: protolint
-  - repo: https://github.com/hadolint/hadolint
-    rev: v2.9.3
-    hooks:
-      - id: hadolint
-  - repo: https://github.com/barklan/git-hooks
-    rev: v0.0.20
-    hooks:
-      - id: go-test
-      - id: forbid-binary
-      - id: docker-compose-check
-  - repo: https://github.com/sqlfluff/sqlfluff
-    rev: 0.11.2
-    hooks:
-      - id: sqlfluff-lint
-  - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.14.1
-    hooks:
-      - id: check-github-workflows
-      - id: check-gitlab-ci
-      - id: check-github-actions
-  - repo: local
-    hooks:
-      - id: golang-filenames
-        name: check go filenames
-        entry: go filenames must be snake-case
-        language: fail
-        files: '[a-z0-9_/]*[^a-z0-9_/]+[a-z0-9_]*\.go$'
-      - id: dotenv-linter
-        name: run dotenv linter
-        language: docker_image
-        entry: dotenvlinter/dotenv-linter --recursive
-        files: \.env$
-      - id: openapi-linter
-        name: validate openapi schema
-        language: docker_image
-        entry: redocly/openapi-cli lint docs/openapi.yml
-        files: ^docs/openapi.yml$
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.31.1
     hooks:
@@ -95,5 +50,5 @@ ci:
   autoupdate_commit_msg: "[pre-commit.ci] pre-commit autoupdate"
   autoupdate_schedule: monthly
   # These require either docker or docker-compose.
-  skip: [dotenv-linter, openapi-linter, docker-compose-check]
+  skip: []
   submodules: false

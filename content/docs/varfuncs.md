@@ -26,7 +26,7 @@ end
 io.write("Sum : ", getSum(1,2,3,4,5,6), "\n")
 ```
 
-```
+```txt {.output}
 Sum : 21
 ```
 
