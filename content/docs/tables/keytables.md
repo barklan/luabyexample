@@ -24,13 +24,13 @@ teamA:12
 teamB:15
 ```
 
-Insert
+## Insert
 
 ```lua
 teams["teamC"] = 1
 ```
 
-Delete
+## Delete
 
 ```lua
 teams["teamA"] = nil

@@ -15,6 +15,6 @@ print("Hello, World!")
 ]]
 ```
 
-To run the code put it in `hello.lua` and use `lua hello.lua`.
+To run the code put it in `hello.lua` and run `lua hello.lua`.
 
 {{< button relref="docs/variables"  >}}Next: Variables{{< /button >}}

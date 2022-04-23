@@ -33,7 +33,6 @@ local y = (2 + 2) * 2
 print(y)
 -- 8
 
-
 print(10 / 2) -- 5
 print(2 ^ 3)  -- 8
 print(5 % 2)  -- 1
