@@ -1,12 +1,6 @@
 ---
 title: "Lua for Configuration"
 weight: 29
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 
 # Lua for Configuration
@@ -45,3 +39,5 @@ Redis allows
 ## And more
 
 There is even [browser](https://github.com/luakit/luakit) and [code editor](https://github.com/rxi/lite) written in Lua.
+
+{{< button relref="docs/testing" >}}Next: Testing{{< /button >}}
