@@ -47,7 +47,8 @@ docker run --rm -it -v "$(pwd)":/workdir barklan/lua hello.lua
 {{< /tabs >}}
 
 {{< hint info >}}
-You can search this site by pressing `/` and using `Tab` key.
+You can search this site by pressing `/` and using `Tab` key. \
+For more info consult [Lua documentation](https://www.lua.org/docs.html).
 {{< /hint >}}
 
 {{< button relref="docs/hello-world"  >}}Start With "Hello World" program!{{< /button >}}
