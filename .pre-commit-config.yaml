@@ -2,7 +2,7 @@ default_stages: [commit]
 exclude: ^resources/.*$
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.1.0
+    rev: v4.2.0
     hooks:
       - id: end-of-file-fixer
       - id: check-added-large-files
@@ -18,7 +18,7 @@ repos:
       - id: mixed-line-ending
         args: ["--fix=no"]
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v2.21.2
+    rev: v2.24.0
     hooks:
       - id: commitizen
         stages: [commit-msg]
