@@ -1,9 +1,8 @@
 ---
 title: "Variadic Functions"
 weight: 12
+next: true
 ---
-
-# Variadic Functions
 
 Variadic Function receive unknown number of parameters
 
@@ -20,8 +19,6 @@ end
 io.write("Sum : ", getSum(1,2,3,4,5,6), "\n")
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 Sum : 21
 ```
-
-{{< button relref="docs/scope"  >}}Next: Variable Scope{{< /button >}}

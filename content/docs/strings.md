@@ -1,9 +1,8 @@
 ---
 title: "Strings"
 weight: 4
+next: true
 ---
-
-# Strings
 
 ```lua
 local greeting = "Hello, "
@@ -18,7 +17,7 @@ hi = "Hi!"
 io.write(string.len(hi), "\n")
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 Hello, Kenneth Sparks
 Laurence is 19 years old
 3
@@ -34,7 +33,7 @@ ever]]
 io.write(longString, "\n")
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 I am a very very long
 string that goes on for
 ever
@@ -46,8 +45,6 @@ String formatting
 print(string.format("not true = %s", tostring(not true)))
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 not true = false
 ```
-
-{{< button relref="docs/ifelse"  >}}Next: If/Else{{< /button >}}

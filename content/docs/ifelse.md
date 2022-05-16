@@ -1,9 +1,8 @@
 ---
 title: "If/Else"
 weight: 5
+next: true
 ---
-
-# If/Else
 
 ```lua
 local age = 10
@@ -23,7 +22,7 @@ end
 
 >Comparison operators in Lua:
 >
->**==, <, >, <=, >=, ~= (inequality)**
+>==, <, >, <=, >=, ~= (inequality)
 
 Combining Statements
 
@@ -36,5 +35,3 @@ elseif not isAlive or age < 18 then
     print("either dead or under 18")
 end
 ```
-
-{{< button relref="docs/whilefor"  >}}Next: While/For{{< /button >}}

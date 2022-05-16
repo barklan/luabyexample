@@ -1,9 +1,8 @@
 ---
 title: "Hello World"
 weight: 1
+next: true
 ---
-
-# Hello World
 
 ```lua
 -- This is a comment.
@@ -16,5 +15,3 @@ print("Hello, World!")
 ```
 
 To run the code put it in `hello.lua` and run `lua hello.lua`.
-
-{{< button relref="docs/variables"  >}}Next: Variables{{< /button >}}

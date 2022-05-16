@@ -1,20 +1,21 @@
 baseURL: https://luabyexample.org/
 languageCode: en-us
 title: Lua by Example
+menu:
+  main:
+    - name: Lua by Example
+      url: /
+      weight: 1
+    - name: Source
+      url: 'https://github.com/barklan/luabyexample'
+      weight: 2
 markup:
   highlight:
-    anchorLineNos: false
-    guessSyntax: false
-    lineNos: false
-    style: perldoc
-    tabWidth: 4
+    codeFences: true
+    style: bw
+  goldmark:
+    renderer:
+      unsafe: true
 module:
   imports:
-    - path: github.com/alex-shpak/hugo-book
-      enableGitInfo: true
-params:
-  BookTheme: light
-  BookRepo: https://github.com/barklan/luabyexample
-  BookEditPath: edit/main
-  BookLogo: logo.png
-  BookToC: false
+    - path: github.com/barklan/hugo-dead-simple

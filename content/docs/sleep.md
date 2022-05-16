@@ -1,9 +1,8 @@
 ---
 title: "Sleeping"
 weight: 19
+next: true
 ---
-
-# Sleeping
 
 Lua doesn't provide a standard `sleep` function, but there are several ways to implement one.
 
@@ -32,5 +31,3 @@ socket = require("socket")
 
 socket.sleep(0.2)
 ```
-
-{{< button relref="docs/files"  >}}Next: File IO{{< /button >}}

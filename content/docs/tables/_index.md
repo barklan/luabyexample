@@ -1,9 +1,8 @@
 ---
 title: "Tables"
 weight: 8
+next: true
 ---
-
-# Tables
 
 ## Basic manipulation
 
@@ -19,7 +18,7 @@ print(colors[3])
 io.write("Number of Items : ", #colors, "\n")
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 red
 green
 blue
@@ -36,7 +35,7 @@ for i=1, #colors do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 red
 green
 blue
@@ -50,7 +49,7 @@ for k, v in pairs(colors) do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 1:red
 2:green
 3:blue
@@ -66,7 +65,7 @@ local index = #colors --4 (this is the last index in the table)
 print(colors[index])
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 orange
 ```
 
@@ -80,7 +79,7 @@ for i=1, #colors do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 red
 pink
 green
@@ -97,9 +96,7 @@ for i=1, #colors do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 green
 blue
 ```
-
-{{< button relref="docs/tables/keytables"  >}}Next: Key Tables{{< /button >}}

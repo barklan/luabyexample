@@ -1,14 +1,13 @@
 ---
 title: "Testing"
-weight: 30
+weight: 27
+next: true
 ---
-
-# Testing
 
 [LuaUnit](https://github.com/bluebird75/luaunit) is a popular unit-testing framework for Lua.
 It can be augmented with [LuaCov](https://github.com/keplerproject/luacov) to analyze coverage.
 
-```bash
+```bash {.no-border}
 luarocks install luaunit
 luarocks install luacov
 ```
@@ -41,11 +40,8 @@ runner:setOutputType("tap")
 os.exit( runner:runSuite() )
 ```
 
-```bash
-lua -lluacov hello_test.lua
-```
-
-```txt {.output}
+```bash {.no-border}
+$ lua -lluacov hello_test.lua
 1..1
 # Started on Sat Apr 23 10:23:20 2022
 # Starting class: TestCalculator

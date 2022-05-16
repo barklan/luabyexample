@@ -1,9 +1,8 @@
 ---
 title: "Meta Tables"
 weight: 10
+next: true
 ---
-
-# Meta Tables
 
 Used to define how operations on tables should be carried out in regards to
 adding, subtracting, multiplying, dividing, concatenating, or comparing tables.
@@ -55,7 +54,7 @@ for z = 1, #addTable do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 true
 2
 4
@@ -63,5 +62,3 @@ true
 8
 10
 ```
-
-{{< button relref="docs/tables/tablesort"  >}}Next: Sorting Tables{{< /button >}}

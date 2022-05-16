@@ -1,10 +1,10 @@
 ---
 title: "Pattern Matching"
 weight: 15
+next: true
 ---
 
-# Pattern Matching
-
+Lua does not have regular expressions. Instead it has pattern matching.
 The `string.gmatch` function will take an input string and a pattern.
 This pattern describes on what to actually get back.
 This function will return a function which is actually an iterator.
@@ -19,7 +19,7 @@ for match in ("#afdde6"):gmatch "%x%x" do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 a
 b
 c
@@ -37,9 +37,7 @@ for k, v in string.gmatch(s, "(%w+)=(%w+)") do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 key: from, value: world
 key: to, value: Lua
 ```
-
-{{< button relref="docs/math"  >}}Next: Math{{< /button >}}

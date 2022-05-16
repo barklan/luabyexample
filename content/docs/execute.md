@@ -1,9 +1,8 @@
 ---
 title: "Spawning Processes"
 weight: 25
+next: true
 ---
-
-# Spawning Processes
 
 This is how to spawn external processes in Lua
 
@@ -13,7 +12,7 @@ local exit_code = os.execute("uname -s")
 print(exit_code)
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 Linux
 0
 ```
@@ -36,8 +35,6 @@ output = os.capture("uname -s")
 print(output)
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 Linux
 ```
-
-{{< button relref="docs/luarocks" >}}Next: LuaRocks{{< /button >}}

@@ -1,9 +1,8 @@
 ---
 title: "LuaRocks (package manager)"
 weight: 26
+next: true
 ---
-
-# LuaRocks (package manager)
 
 [LuaRocks](https://luarocks.org/) is the package manager for Lua modules.
 On most distributions it is available as `luarocks`.
@@ -70,5 +69,3 @@ Remove a rock
 ```bash
 luarocks remove --local cmark
 ```
-
-{{< button relref="docs/docker" >}}Next: Docker{{< /button >}}

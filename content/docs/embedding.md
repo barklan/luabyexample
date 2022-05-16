@@ -1,9 +1,8 @@
 ---
 title: "Embedding"
 weight: 28
+next: true
 ---
-
-# Embedding
 
 Lua complements other languages very well. It is a language as dynamic as Python,
 but LuaJIT compiles it to very fast machine code, sometimes faster than many statically
@@ -30,7 +29,7 @@ func main() {
 }
 ```
 
-```bash
+```bash {.no-border}
 $ go run main.go
 Hi!
 ```
@@ -93,5 +92,3 @@ fn main() -> Result<()> {
 ## .NET
 
 One can use [NLua](https://github.com/NLua/NLua) as a bridge between Lua and the .NET.
-
-{{< button relref="docs/conflang" >}}Next: Lua for Configuration{{< /button >}}
