@@ -1,9 +1,8 @@
 ---
 title: "Functions"
 weight: 7
+next: true
 ---
-
-# Functions
 
 ```lua
 function calculateTax(price)
@@ -14,9 +13,11 @@ local result = calculateTax(100)
 print(result)
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 21.0
 ```
+
+<br>
 
 ```lua
 function info(name, age, country)
@@ -26,8 +27,6 @@ end
 info("Kenneth", 12, "Jupiter")
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 Kenneth is 12 years old.
 ```
-
-{{< button relref="docs/tables"  >}}Next: Tables{{< /button >}}

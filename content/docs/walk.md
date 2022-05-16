@@ -1,14 +1,13 @@
 ---
 title: "Walk a Directory"
 weight: 20
+next: true
 ---
-
-# Walk a Directory
 
 We can use lfs ([LuaFileSystem](https://github.com/keplerproject/luafilesystem))
 module to make a walk function. To install lfs use [luarocks](/luarocks):
 
-```bash
+```bash {.no-border}
 mkdir .cache
 luarocks --tree=./.cache install luafilesystem
 ```
@@ -46,9 +45,7 @@ for f in walk("src/styles") do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 src/styles/main.css
 src/styles/markdown.css
 ```
-
-{{< button relref="docs/modules"  >}}Next: Modules{{< /button >}}

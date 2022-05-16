@@ -1,9 +1,8 @@
 ---
 title: "Coroutines"
 weight: 22
+next: true
 ---
-
-# Coroutines
 
 A new coroutine is created by using the `coroutine.create` function
 with a single argument: a function to be executed.
@@ -20,7 +19,7 @@ print(co)
 print(coroutine.status(co))
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 thread: 0x5629ba941d58
 suspended
 ```
@@ -32,22 +31,20 @@ When we create a coroutine, it starts in the suspended state.
 coroutine.resume(co)
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 honk
 ```
+
+<br>
 
 ```lua
 print(coroutine.status(co))
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 dead
 ```
 
-{{< hint info >}}
 Unlike "real" multithreading, coroutines are non preemptive.
 While a coroutine is running, it cannot be stopped from the outside.
 It only suspends execution when it explicitly requests so (through a call to `yield`).
-{{< /hint >}}
-
-{{< button relref="docs/oop"  >}}Next: OOP{{< /button >}}

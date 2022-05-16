@@ -1,9 +1,8 @@
 ---
 title: "Numbers"
 weight: 3
+next: true
 ---
-
-# Numbers
 
 The number type represents **real** (double-precision floating-point) numbers.
 Lua has no integer type, as it does not need it.
@@ -27,5 +26,3 @@ print(10 / 2) -- 5
 print(2 ^ 3)  -- 8
 print(5 % 2)  -- 1
 ```
-
-{{< button relref="docs/strings"  >}}Next: Strings{{< /button >}}

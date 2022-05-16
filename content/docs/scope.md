@@ -1,9 +1,10 @@
 ---
 title: "Variable Scope"
 weight: 13
+next: true
 ---
 
-# Variable Scope
+## Local
 
 Variables have different scopes. Once the end of the scope is reached the values in that scope are no longer accessible
 
@@ -15,18 +16,20 @@ end
 print(a)
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 nil
 ```
 
-**Global** variables do not need declarations. You simply assign a value to a global variable to create it.
+## Global
+
+Global variables do not need declarations. You simply assign a value to a global variable to create it.
 
 ```lua
 b = 10
 print(b)
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 10
 ```
 
@@ -54,10 +57,8 @@ alter_inside('b')
 alter_inside('c')
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 11      6       7
 5       11      7
 5       6       11
 ```
-
-{{< button relref="docs/stringfunc"  >}}Next: String Functions{{< /button >}}

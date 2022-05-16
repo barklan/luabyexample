@@ -1,9 +1,8 @@
 ---
 title: "Key Tables"
 weight: 9
+next: true
 ---
-
-# Key Tables
 
 ```lua
 local teams = {
@@ -18,7 +17,7 @@ for key,value in pairs(teams) do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 12
 teamA:12
 teamB:15
@@ -35,5 +34,3 @@ teams["teamC"] = 1
 ```lua
 teams["teamA"] = nil
 ```
-
-{{< button relref="docs/tables/metatables"  >}}Next: Meta Tables{{< /button >}}

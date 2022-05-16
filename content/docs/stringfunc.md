@@ -1,13 +1,12 @@
 ---
 title: "String Functions"
 weight: 14
+next: true
 ---
-
-# String Functions
 
 Lua provides multiple string functions:
 
-```txt
+```txt {.no-border}
 string
 string.byte
 string.char
@@ -28,7 +27,7 @@ string.unpack
 string.upper
 ```
 
-Split string:
+## Split string
 
 ```lua
 local function splitStr(theString)
@@ -51,9 +50,7 @@ local t = splitStr("I went for a walk.")
 io.write(t[2], "\n", t[3])
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 went
 for
 ```
-
-{{< button relref="docs/gmatch"  >}}Next: Pattern Matching{{< /button >}}

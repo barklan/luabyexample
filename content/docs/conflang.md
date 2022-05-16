@@ -1,9 +1,8 @@
 ---
 title: "Lua for Configuration"
 weight: 29
+next: true
 ---
-
-# Lua for Configuration
 
 Using Lua as a configuration language is often the first step toward
 a fully scriptable application.
@@ -39,5 +38,3 @@ Redis allows
 ## And more
 
 There is even [browser](https://github.com/luakit/luakit) and [code editor](https://github.com/rxi/lite) written in Lua.
-
-{{< button relref="docs/testing" >}}Next: Testing{{< /button >}}

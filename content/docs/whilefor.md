@@ -1,9 +1,8 @@
 ---
 title: "While/For"
 weight: 6
+next: true
 ---
-
-# While/For
 
 ## While
 
@@ -19,7 +18,7 @@ while (i <= 10) do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 1234567
 ```
 
@@ -46,8 +45,6 @@ for i = 1, 10, 1 do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 12345678910
 ```
-
-{{< button relref="docs/functions"  >}}Next: Functions{{< /button >}}

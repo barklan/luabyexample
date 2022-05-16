@@ -1,9 +1,8 @@
 ---
 title: "OOP"
 weight: 23
+next: true
 ---
-
-# OOP
 
 Lua is not an OOP language and it doesn't allow you to define classes but you can fake it using tables and metatables.
 
@@ -31,8 +30,6 @@ local myshape = Shape:new(nil, 10)
 myshape:printArea()
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 The area is 100
 ```
-
-{{< button relref="docs/envvars" >}}Next: Environment Variables{{< /button >}}

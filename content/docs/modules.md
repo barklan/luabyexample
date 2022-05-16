@@ -1,25 +1,14 @@
 ---
 title: "Modules"
 weight: 21
+next: true
 ---
-
-# Modules
 
 A Module is like a library full of functions and variables.
 
-{{< columns >}}
+`info.lua`:
 
 ```lua
--- main.lua
-local info = require "info"
-
-info.valueOf("John")
-```
-
-<--->
-
-```lua
--- info.lua
 local m = {}
 
 function m.valueOf(x)
@@ -29,11 +18,17 @@ end
 return m
 ```
 
-{{< /columns >}}
+`main.lua`:
 
-```bash
+```lua
+local info = require "info"
+
+info.valueOf("John")
+```
+
+<br>
+
+```bash {.no-border}
 $ lua main.lua
 Value: John
 ```
-
-{{< button relref="docs/coroutines"  >}}Next: Coroutines{{< /button >}}

@@ -1,9 +1,8 @@
 ---
 title: "Math"
 weight: 16
+next: true
 ---
-
-# Math
 
 Lua provides common [mathematical functions](http://www.lua.org/manual/5.4/manual.html#6.7) out of the box.
 
@@ -15,7 +14,7 @@ print(math.ceil(x))
 
 Full list:
 
-```txt
+```txt {.no-border}
 math.abs
 math.acos
 math.asin
@@ -44,5 +43,3 @@ math.tointeger
 math.type
 math.ult
 ```
-
-{{< button relref="docs/random"  >}}Next: Random Numbers{{< /button >}}

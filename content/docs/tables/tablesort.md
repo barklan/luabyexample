@@ -1,9 +1,8 @@
 ---
 title: "Sorting Tables"
 weight: 11
+next: true
 ---
-
-# Sorting Tables
 
 ```lua
 local t = {
@@ -22,12 +21,10 @@ for i, v in ipairs(t) do
 end
 ```
 
-```txt {.output}
+```txt {.fs90 .no-border}
 3
 5
 7
 8
 12
 ```
-
-{{< button relref="docs/varfuncs"  >}}Next: Variadic Functions{{< /button >}}
