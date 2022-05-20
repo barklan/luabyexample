@@ -2,7 +2,12 @@
 title: "Neovim: autocmd"
 weight: 45
 next: true
+toc: true
 ---
+
+An autocommand is a command that is executed automatically in response to some
+event, such as a file being read or written or a buffer change
+([documentation](https://neovim.io/doc/user/autocmd.html)).
 
 ## Start git commit messages in insert mode
 

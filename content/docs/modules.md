@@ -21,7 +21,7 @@ return m
 `main.lua`:
 
 ```lua
-local info = require "info"
+local info = require("info")
 
 info.valueOf("John")
 ```

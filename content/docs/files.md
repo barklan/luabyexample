@@ -29,7 +29,16 @@ print(file:read("*a"))
 file:close()
 ```
 
-There are different ways to work with files:
+```txt {.fs90 .no-border}
+Random string of text
+Some more text
+
+Random string of text
+Some more text
+Even more text
+```
+
+There are several different ways to work with files:
 
 ```txt {.no-border}
 r: Read only (default)

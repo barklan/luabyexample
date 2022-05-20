@@ -4,8 +4,6 @@ weight: 23
 next: true
 ---
 
-## `assert`
-
 ```lua
 local function add(a,b)
    assert(type(a) == "number", "a is not a number")

@@ -11,11 +11,11 @@ which explicitly permits commercial use. Some examples:
 
 ## Neovim
 
-Neovim [uses Lua extensively](https://neovim.io/doc/lua-resources/).
-It can for instance load its configuration from an init.lua instead of the
-traditional init.vim.
-There are [a lot of plugins](https://github.com/search?l=Lua&q=neovim&type=Repositories)
-for Neovim written in Lua.
+Neovim [uses Lua extensively](https://neovim.io/doc/lua-resources/) (via LuaJIT).
+It can for instance load its configuration from an `init.lua` instead of the
+traditional `init.vim`. Integration with Lua has sparked a
+[huge number of plugins](https://github.com/search?l=Lua&q=neovim&type=Repositories)
+for Neovim.
 
 ## MPV and VLC
 
@@ -38,3 +38,4 @@ Redis allows
 ## And more
 
 There is even [browser](https://github.com/luakit/luakit) and [code editor](https://github.com/rxi/lite) written in Lua.
+For more look at [awesome-lua](https://github.com/JaredSartin/awesome-lua) repo.

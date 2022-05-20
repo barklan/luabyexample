@@ -2,6 +2,7 @@
 title: "While/For"
 weight: 6
 next: true
+toc: true
 ---
 
 ## While

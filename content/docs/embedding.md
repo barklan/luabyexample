@@ -2,6 +2,7 @@
 title: "Embedding"
 weight: 28
 next: true
+toc: true
 ---
 
 Lua complements other languages very well. It is a language as dynamic as Python,
