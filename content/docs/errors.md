@@ -2,6 +2,7 @@
 title: "Error handling"
 weight: 23
 next: true
+toc: true
 ---
 
 ## Try-catch style

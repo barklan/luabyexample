@@ -9,7 +9,10 @@ Lua provides common [mathematical functions](http://www.lua.org/manual/5.4/manua
 ```lua
 local x = 1.2
 print(math.ceil(x))
---2
+```
+
+```txt {.fs90 .no-border}
+2
 ```
 
 Full list:
