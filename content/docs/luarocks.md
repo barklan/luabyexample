@@ -8,13 +8,13 @@ next: true
 On most distributions it is available as `luarocks`.
 For lots of cool Lua packages see [awesome-lua](https://github.com/JaredSartin/awesome-lua).
 
-Search for a library
+## Search for a library
 
 ```bash
 luarocks search luasec
 ```
 
-Install a library
+## Install a library
 
 ```bash
 luarocks install --local luasec
@@ -32,6 +32,8 @@ but you can redefine it arbitrarily.
 mkdir local
 luarocks --tree=./local install cmark
 ```
+
+## Using a library
 
 You can use the library in your Lua code by defining the package.path variable
 to point to your local rocks directory
@@ -52,19 +54,19 @@ package.cpath = package.cpath .. ';local/share/lua/5.3/?.so'
 require("lfs")
 ```
 
-Show information about an installed rock
+## Show information about an installed rock
 
 ```bash
 luarocks show luasec
 ```
 
-Get a list of installed rocks
+## List installed rocks
 
 ```bash
 luarocks list
 ```
 
-Remove a rock
+## Remove a rock
 
 ```bash
 luarocks remove --local cmark
