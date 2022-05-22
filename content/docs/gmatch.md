@@ -41,3 +41,22 @@ end
 key: from, value: world
 key: to, value: Lua
 ```
+
+## Character classes
+
+| Character class | Matching section |
+| --- | --- |
+| %a | letters (A-Z, a-z) |
+| %c | control characters (\n, \t, \r, ...) |
+| %d | digits (0-9) |
+| %l | lower-case letter (a-z) |
+| %p | punctuation characters (!, ?, &, ...) |
+| %s | space characters |
+| %u | upper-case letters |
+| %w | alphanumeric characters (A-Z, a-z, 0-9) |
+| %x | hexadecimal digits (\3, \4, ...) |
+| %z | the character with representation 0 |
+| . | Matches any character |
+
+Any upper-case version of those classes represents the complement of the class.
+For instance, `%D` will match any non-digit character sequence.
