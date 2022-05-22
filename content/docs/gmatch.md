@@ -2,12 +2,15 @@
 title: "Pattern Matching"
 weight: 15
 next: true
+toc: true
 ---
 
 Lua does not have regular expressions. Instead it has pattern matching.
 The `string.gmatch` function will take an input string and a pattern.
 This pattern describes on what to actually get back.
 This function will return a function which is actually an iterator.
+
+## Simple matching
 
 ```lua
 for char in ("abc"):gmatch "." do
@@ -28,7 +31,7 @@ c
 #e6
 ```
 
-Only the captures instead the full match:
+## Capture groups
 
 ```lua
 local s = "from=world, to=Lua"
