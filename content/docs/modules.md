@@ -9,13 +9,13 @@ A Module is like a library full of functions and variables.
 `info.lua`:
 
 ```lua
-local m = {}
+local M = {}
 
-function m.valueOf(x)
+function M.valueOf(x)
     io.write("Value: ", x)
 end
 
-return m
+return M
 ```
 
 `main.lua`:

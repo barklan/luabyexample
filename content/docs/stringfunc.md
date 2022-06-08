@@ -6,7 +6,7 @@ next: true
 
 Lua provides multiple string functions:
 
-```txt {.output}
+```txt
 string
 string.byte
 string.char

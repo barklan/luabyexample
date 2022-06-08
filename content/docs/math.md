@@ -18,7 +18,7 @@ print(math.ceil(x))
 
 Full list:
 
-```txt {.output}
+```txt
 math.abs
 math.acos
 math.asin
