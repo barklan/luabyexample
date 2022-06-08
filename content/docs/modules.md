@@ -28,7 +28,7 @@ info.valueOf("John")
 
 <br>
 
-```bash {.no-border}
+```bash {.output}
 $ lua main.lua
 Value: John
 ```

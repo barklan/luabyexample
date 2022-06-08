@@ -11,13 +11,14 @@ local x = 1.2
 print(math.ceil(x))
 ```
 
-```txt {.fs90 .no-border}
+```txt {.fs90 .output}
+―――――
 2
 ```
 
 Full list:
 
-```txt {.no-border}
+```txt {.output}
 math.abs
 math.acos
 math.asin

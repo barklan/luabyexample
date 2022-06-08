@@ -21,7 +21,8 @@ for i, v in ipairs(t) do
 end
 ```
 
-```txt {.fs90 .no-border}
+```txt {.fs90 .output}
+―――――
 3
 5
 7

@@ -19,7 +19,8 @@ print(co)
 print(coroutine.status(co))
 ```
 
-```txt {.fs90 .no-border}
+```txt {.fs90 .output}
+―――――
 thread: 0x5629ba941d58
 suspended
 ```
@@ -31,7 +32,8 @@ When we create a coroutine, it starts in the suspended state.
 coroutine.resume(co)
 ```
 
-```txt {.fs90 .no-border}
+```txt {.fs90 .output}
+―――――
 honk
 ```
 
@@ -41,7 +43,8 @@ honk
 print(coroutine.status(co))
 ```
 
-```txt {.fs90 .no-border}
+```txt {.fs90 .output}
+―――――
 dead
 ```
 

@@ -54,7 +54,8 @@ for z = 1, #addTable do
 end
 ```
 
-```txt {.fs90 .no-border}
+```txt {.fs90 .output}
+―――――
 true
 2
 4
