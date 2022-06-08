@@ -7,22 +7,3 @@ Small site to keep Lua in one place.
 ```bash
 hugo server --minify -D
 ```
-
-All pages are in `content/docs`.
-
-## Contributing
-
-All `pre-commit` checks must pass before merge can be made.
-To use it locally, install [`pre-commit`](https://pre-commit.com/)
-and enable git hooks:
-
-```bash
-pre-commit install
-pre-commit install --hook-type commit-msg
-```
-
-Run on all files
-
-```bash
-pre-commit run --all-files
-```
