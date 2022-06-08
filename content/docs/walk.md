@@ -7,7 +7,7 @@ next: true
 We can use lfs ([LuaFileSystem](https://github.com/keplerproject/luafilesystem))
 module to make a walk function. To install lfs use [luarocks](/luarocks):
 
-```bash {.output}
+```bash
 mkdir .cache
 luarocks --tree=./.cache install luafilesystem
 ```

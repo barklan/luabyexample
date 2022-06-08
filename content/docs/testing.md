@@ -9,7 +9,7 @@ toc: true
 
 [busted](https://github.com/Olivine-Labs/busted) is a unit testing framework with a focus on being easy to use
 
-```bash {.output}
+```bash
 luarocks install busted
 ```
 
@@ -51,7 +51,7 @@ end)
 
 Run all tests:
 
-```bash {.output}
+```bash
 busted -p _test tests
 ```
 
@@ -59,7 +59,7 @@ busted -p _test tests
 
 [LuaUnit](https://github.com/bluebird75/luaunit) is a simpler unit-testing framework for Lua.
 
-```bash {.output}
+```bash
 luarocks install luaunit
 ```
 
@@ -91,7 +91,8 @@ runner:setOutputType("tap")
 os.exit( runner:runSuite() )
 ```
 
-```bash {.output}
+```bash
+―――――
 $ lua hello_test.lua
 1..1
 # Started on Sat Apr 23 10:23:20 2022
@@ -104,13 +105,13 @@ ok     1    TestCalculator.testPlus
 
 [LuaCov](https://github.com/keplerproject/luacov) can be used to analyze code coverage.
 
-```bash {.output}
+```bash
 luarocks install luacov
 ```
 
 Run All Tests and check code coverage with busted:
 
-```bash {.output}
+```bash
 busted -c -p _test tests
 luacov luacov.stats.out
 cat luacov.report.out

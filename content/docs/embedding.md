@@ -30,7 +30,8 @@ func main() {
 }
 ```
 
-```bash {.output}
+```bash
+―――――
 $ go run main.go
 Hi!
 ```
