@@ -15,6 +15,7 @@ add(10)
 ```
 
 ```bash {.output}
+―――――
 lua: temp.lua:3: b is not a number
 stack traceback:
         [C]: in function 'assert'
