@@ -17,7 +17,6 @@ print(a)
 ```
 
 ```txt {.fs90 .output}
-―――――
 nil
 ```
 
@@ -31,7 +30,6 @@ print(b)
 ```
 
 ```txt {.fs90 .output}
-―――――
 10
 ```
 
@@ -60,7 +58,6 @@ alter_inside('c')
 ```
 
 ```txt {.fs90 .output}
-―――――
 11      6       7
 5       11      7
 5       6       11

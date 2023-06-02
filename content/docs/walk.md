@@ -46,7 +46,6 @@ end
 ```
 
 ```txt {.fs90 .output}
-―――――
 src/styles/main.css
 src/styles/markdown.css
 ```

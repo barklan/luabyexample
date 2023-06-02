@@ -30,7 +30,6 @@ file:close()
 ```
 
 ```txt {.fs90 .output}
-―――――
 Random string of text
 Some more text
 

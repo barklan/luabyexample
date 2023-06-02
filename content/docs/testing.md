@@ -92,7 +92,6 @@ os.exit( runner:runSuite() )
 ```
 
 ```bash
-―――――
 $ lua hello_test.lua
 1..1
 # Started on Sat Apr 23 10:23:20 2022

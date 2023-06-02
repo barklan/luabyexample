@@ -12,7 +12,6 @@ print(math.ceil(x))
 ```
 
 ```txt {.fs90 .output}
-―――――
 2
 ```
 

@@ -23,7 +23,6 @@ end
 ```
 
 ```txt {.fs90 .output}
-―――――
 a
 b
 c
@@ -42,7 +41,6 @@ end
 ```
 
 ```txt {.fs90 .output}
-―――――
 key: from, value: world
 key: to, value: Lua
 ```

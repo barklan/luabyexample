@@ -14,7 +14,6 @@ print(secret)
 ```
 
 ```txt {.fs90 .output}
-―――――
 $ SECRET=12345 lua envtest.lua
 12345
 ```

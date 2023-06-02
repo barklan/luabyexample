@@ -31,6 +31,5 @@ myshape:printArea()
 ```
 
 ```txt {.fs90 .output}
-―――――
 The area is 100
 ```

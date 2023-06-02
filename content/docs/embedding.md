@@ -31,7 +31,6 @@ func main() {
 ```
 
 ```bash
-―――――
 $ go run main.go
 Hi!
 ```

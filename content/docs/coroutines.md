@@ -20,7 +20,6 @@ print(coroutine.status(co))
 ```
 
 ```txt {.fs90 .output}
-―――――
 thread: 0x5629ba941d58
 suspended
 ```
@@ -33,7 +32,6 @@ coroutine.resume(co)
 ```
 
 ```txt {.fs90 .output}
-―――――
 honk
 ```
 
@@ -44,7 +42,6 @@ print(coroutine.status(co))
 ```
 
 ```txt {.fs90 .output}
-―――――
 dead
 ```
 

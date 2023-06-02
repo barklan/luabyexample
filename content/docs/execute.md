@@ -13,7 +13,6 @@ print(exit_code)
 ```
 
 ```txt {.fs90 .output}
-―――――
 Linux
 0
 ```
@@ -37,6 +36,5 @@ print(output)
 ```
 
 ```txt {.fs90 .output}
-―――――
 Linux
 ```

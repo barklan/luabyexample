@@ -51,7 +51,6 @@ io.write(t[2], "\n", t[3])
 ```
 
 ```txt {.fs90 .output}
-―――――
 went
 for
 ```

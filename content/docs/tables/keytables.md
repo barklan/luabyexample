@@ -18,7 +18,6 @@ end
 ```
 
 ```txt {.fs90 .output}
-―――――
 12
 teamA:12
 teamB:15

@@ -55,7 +55,6 @@ end
 ```
 
 ```txt {.fs90 .output}
-―――――
 true
 2
 4

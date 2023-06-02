@@ -19,7 +19,6 @@ io.write("Number of Items : ", #colors, "\n")
 ```
 
 ```txt {.fs90 .output}
-―――――
 red
 green
 blue
@@ -37,7 +36,6 @@ end
 ```
 
 ```txt {.fs90 .output}
-―――――
 red
 green
 blue
@@ -52,7 +50,6 @@ end
 ```
 
 ```txt {.fs90 .output}
-―――――
 1:red
 2:green
 3:blue
@@ -69,7 +66,6 @@ print(colors[index])
 ```
 
 ```txt {.fs90 .output}
-―――――
 orange
 ```
 
@@ -84,7 +80,6 @@ end
 ```
 
 ```txt {.fs90 .output}
-―――――
 red
 pink
 green
@@ -102,7 +97,6 @@ end
 ```
 
 ```txt {.fs90 .output}
-―――――
 green
 blue
 ```
