@@ -1,6 +1,6 @@
 ---
 title: "Walk a Directory"
-weight: 20
+weight: 180
 next: true
 ---
 

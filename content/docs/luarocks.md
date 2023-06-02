@@ -1,6 +1,6 @@
 ---
 title: "LuaRocks (package manager)"
-weight: 26
+weight: 260
 next: true
 ---
 

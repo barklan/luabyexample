@@ -1,6 +1,6 @@
 ---
 title: "Neovim: `init.lua`"
-weight: 40
+weight: 300
 next: true
 ---
 

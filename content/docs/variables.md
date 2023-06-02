@@ -1,6 +1,6 @@
 ---
 title: "Variables"
-weight: 2
+weight: 30
 next: true
 ---
 

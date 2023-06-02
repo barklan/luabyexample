@@ -1,6 +1,6 @@
 ---
 title: "Strings"
-weight: 4
+weight: 50
 next: true
 ---
 

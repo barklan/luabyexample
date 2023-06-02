@@ -1,6 +1,6 @@
 ---
 title: "Variable Scope"
-weight: 13
+weight: 100
 next: true
 ---
 

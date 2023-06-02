@@ -2,7 +2,7 @@
 title: "How to run it"
 toc: true
 next: true
-weight: 1
+weight: 20
 ---
 
 ## 1. Online

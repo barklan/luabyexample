@@ -1,6 +1,6 @@
 ---
 title: "Neovim: autocmd"
-weight: 45
+weight: 310
 next: true
 toc: true
 ---

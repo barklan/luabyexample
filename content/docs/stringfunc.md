@@ -1,6 +1,6 @@
 ---
 title: "String Functions"
-weight: 14
+weight: 110
 next: true
 ---
 

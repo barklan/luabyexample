@@ -1,6 +1,6 @@
 ---
 title: "While/For"
-weight: 6
+weight: 70
 next: true
 toc: true
 ---
