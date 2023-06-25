@@ -9,13 +9,17 @@ menu:
     - name: Source
       url: 'https://github.com/barklan/luabyexample'
       weight: 2
+
 markup:
   highlight:
     codeFences: true
     style: bw
+    lineNumbersInTable: false
+    noClasses: false
   goldmark:
     renderer:
       unsafe: true
+
 module:
   imports:
     - path: github.com/barklan/hugo-dead-simple
