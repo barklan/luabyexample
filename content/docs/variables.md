@@ -1,5 +1,6 @@
 ---
 title: "Variables"
+date: "2023-07-01"
 weight: 30
 next: true
 ---

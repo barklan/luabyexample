@@ -1,5 +1,6 @@
 ---
 title: "Time"
+date: "2023-07-01"
 weight: 150
 next: true
 ---

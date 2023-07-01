@@ -1,5 +1,6 @@
 ---
 title: "Testing"
+date: "2023-07-01"
 weight: 270
 next: true
 toc: true

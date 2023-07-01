@@ -1,5 +1,6 @@
 ---
 title: "Neovim: autocmd"
+date: "2023-07-01"
 weight: 310
 next: true
 toc: true

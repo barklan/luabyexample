@@ -1,5 +1,6 @@
 ---
 title: "Neovim: `init.lua`"
+date: "2023-07-01"
 weight: 300
 next: true
 ---

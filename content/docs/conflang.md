@@ -1,5 +1,6 @@
 ---
 title: "Lua for Configuration"
+date: "2023-07-01"
 weight: 290
 next: true
 ---

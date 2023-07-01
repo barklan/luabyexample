@@ -1,5 +1,6 @@
 ---
 title: "Variadic Functions"
+date: "2023-07-01"
 weight: 90
 next: true
 ---

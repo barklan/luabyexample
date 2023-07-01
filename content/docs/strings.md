@@ -1,5 +1,6 @@
 ---
 title: "Strings"
+date: "2023-07-01"
 weight: 50
 next: true
 ---

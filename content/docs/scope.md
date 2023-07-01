@@ -1,5 +1,6 @@
 ---
 title: "Variable Scope"
+date: "2023-07-01"
 weight: 100
 next: true
 ---

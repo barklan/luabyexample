@@ -1,5 +1,6 @@
 ---
 title: "How to run it"
+date: "2023-07-01"
 toc: true
 next: true
 weight: 20

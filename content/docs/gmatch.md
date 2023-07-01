@@ -1,5 +1,6 @@
 ---
 title: "Pattern Matching"
+date: "2023-07-01"
 weight: 120
 next: true
 toc: true

@@ -1,5 +1,6 @@
 ---
 title: "Random Numbers"
+date: "2023-07-01"
 weight: 140
 next: true
 ---

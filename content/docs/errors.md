@@ -1,5 +1,6 @@
 ---
 title: "Error handling"
+date: "2023-07-01"
 weight: 220
 next: true
 toc: true

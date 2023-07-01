@@ -1,5 +1,6 @@
 ---
 title: "File IO"
+date: "2023-07-01"
 weight: 170
 next: true
 ---

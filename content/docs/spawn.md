@@ -1,5 +1,6 @@
 ---
 title: "Spawning Processes"
+date: "2023-07-01"
 weight: 250
 next: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: "String Functions"
+date: "2023-07-01"
 weight: 110
 next: true
 ---

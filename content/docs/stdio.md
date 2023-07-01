@@ -1,5 +1,6 @@
 ---
 title: "Standard input/output"
+date: "2023-07-01"
 weight: 241
 next: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: "While/For"
+date: "2023-07-01"
 weight: 70
 next: true
 toc: true

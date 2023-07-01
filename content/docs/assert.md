@@ -1,5 +1,6 @@
 ---
 title: "Assertions"
+date: "2023-07-01"
 weight: 210
 next: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Environment Variables"
+date: "2023-07-01"
 weight: 240
 next: true
 ---
