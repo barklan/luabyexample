@@ -1,6 +1,7 @@
 baseURL: https://luabyexample.netlify.app/
 languageCode: en-us
 title: Lua by Example
+enableGitInfo: true
 menu:
   main:
     - name: Lua by Example
@@ -19,6 +20,14 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+outputs:
+  home:
+    - html
+    - rss
+    - json
+  page:
+    - html
 
 module:
   imports:
