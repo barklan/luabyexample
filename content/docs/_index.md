@@ -1,3 +1,4 @@
 ---
 title: ""
+nodate: true
 ---
