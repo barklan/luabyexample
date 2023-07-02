@@ -13,7 +13,7 @@ local exit_code = os.execute("uname -s")
 print(exit_code)
 ```
 
-```txt {.fs90 .output}
+``` {.fs95 .output}
 Linux
 0
 ```
@@ -36,6 +36,6 @@ output = os.capture("uname -s")
 print(output)
 ```
 
-```txt {.fs90 .output}
+``` {.fs95 .output}
 Linux
 ```

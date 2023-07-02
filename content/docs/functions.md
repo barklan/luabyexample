@@ -14,7 +14,7 @@ local result = calculateTax(100)
 print(result)
 ```
 
-```txt {.fs90 .output}
+``` {.fs95 .output}
 21.0
 ```
 
@@ -28,6 +28,6 @@ end
 info("Kenneth", 12, "Jupiter")
 ```
 
-```txt {.fs90 .output}
+``` {.fs95 .output}
 Kenneth is 12 years old.
 ```

@@ -14,6 +14,6 @@ a = 100500
 
 Produces an error:
 
-```txt {.fs90 .output}
+``` {.fs95 .output}
 lua: tmp.lua:2: attempt to assign to const variable 'a'
 ```

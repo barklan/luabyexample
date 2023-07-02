@@ -18,7 +18,7 @@ for key,value in pairs(teams) do
 end
 ```
 
-```txt {.fs90 .output}
+``` {.fs95 .output}
 12
 teamA:12
 teamB:15
