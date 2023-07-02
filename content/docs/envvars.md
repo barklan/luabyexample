@@ -14,7 +14,7 @@ assert(secret ~= nil, "SECRET not set")
 print(secret)
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 $ SECRET=12345 lua envtest.lua
 12345
 ```

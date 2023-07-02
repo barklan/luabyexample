@@ -19,7 +19,7 @@ print(math.random(100))
 print(math.random(20, 100))
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 0.0012512588885159
 20
 54

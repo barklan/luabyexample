@@ -55,7 +55,7 @@ for z = 1, #addTable do
 end
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 true
 2
 4

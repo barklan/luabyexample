@@ -12,7 +12,7 @@ local x = 1.2
 print(math.ceil(x))
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 2
 ```
 

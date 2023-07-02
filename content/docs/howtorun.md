@@ -49,7 +49,8 @@ Visit [lua.org](https://www.lua.org/download.html) for detailed instructions to 
 There is also [LuaJIT project](https://luajit.org/) - a Just-In-Time Compiler for Lua.
 It can be used as a drop-in replacement for Lua.
 
-### MacOS
+{{< tabs >}}
+{{< tab "MacOS" >}}
 
 On MacOS Lua can be installed with Homebrew:
 
@@ -58,7 +59,8 @@ brew update
 brew install lua
 ```
 
-### Linux
+{{< /tab >}}
+{{< tab "Linux" >}}
 
 On most Linux distributions Lua is available as `lua` package.
 On non-rolling distributions like Ubuntu it is preferable to
@@ -82,9 +84,13 @@ sudo pacman -Syu lua luajit
 sudo dnf install lua
 ```
 
-### Windows
+{{< /tab >}}
+{{< tab "Windows" >}}
 
 On Windows it can be installed either with
 [luaforwindows project](https://github.com/rjpcomputing/luaforwindows/releases) or
 [luarocks all-in-one](https://github.com/luarocks/luarocks/wiki/Installation-instructions-for-Windows)
 package.
+
+{{< /tab >}}
+{{< /tabs >}}

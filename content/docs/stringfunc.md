@@ -51,7 +51,7 @@ local t = splitStr("I went for a walk.")
 io.write(t[2], "\n", t[3])
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 went
 for
 ```

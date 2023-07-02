@@ -21,7 +21,7 @@ print(t.year)
 print(t.hour)
 ```
 
-``` {.fs95 .output}
+```txt {.output .fs95}
 1641046800
 1631664000
 2021
@@ -34,13 +34,13 @@ print(t.hour)
 print(os.date("today is %A, in %B"))
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 today is Saturday, in January
 ```
 
 All formatting tags:
 
-```txt {.output}
+```txt
 %a  abbreviated weekday name (e.g., Wed)
 %A  full weekday name (e.g., Wednesday)
 %b  abbreviated month name (e.g., Sep)

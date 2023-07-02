@@ -3,6 +3,7 @@ title: "Variable Scope"
 date: "2023-07-01"
 weight: 100
 next: true
+toc: true
 ---
 
 ## Local
@@ -17,7 +18,7 @@ end
 print(a)
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 nil
 ```
 
@@ -30,7 +31,7 @@ b = 10
 print(b)
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 10
 ```
 
@@ -58,7 +59,7 @@ alter_inside('b')
 alter_inside('c')
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 11      6       7
 5       11      7
 5       6       11

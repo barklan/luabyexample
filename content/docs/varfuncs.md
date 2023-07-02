@@ -20,6 +20,6 @@ end
 io.write("Sum : ", getSum(1,2,3,4,5,6), "\n")
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 Sum : 21
 ```

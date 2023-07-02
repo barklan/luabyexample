@@ -2,6 +2,7 @@
 title: "Tables"
 date: "2023-07-01"
 weight: 71
+toc: true
 next: true
 ---
 
@@ -19,7 +20,7 @@ print(colors[3])
 io.write("Number of Items : ", #colors, "\n")
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 red
 green
 blue
@@ -36,7 +37,7 @@ for i=1, #colors do
 end
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 red
 green
 blue
@@ -50,7 +51,7 @@ for k, v in pairs(colors) do
 end
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 1:red
 2:green
 3:blue
@@ -66,7 +67,7 @@ local index = #colors --4 (this is the last index in the table)
 print(colors[index])
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 orange
 ```
 
@@ -80,7 +81,7 @@ for i=1, #colors do
 end
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 red
 pink
 green
@@ -97,7 +98,7 @@ for i=1, #colors do
 end
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 green
 blue
 ```

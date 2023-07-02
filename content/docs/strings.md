@@ -18,7 +18,7 @@ hi = "Hi!"
 io.write(string.len(hi), "\n")
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 Hello, Kenneth Sparks
 Laurence is 19 years old
 3
@@ -34,7 +34,7 @@ ever]]
 io.write(longString, "\n")
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 I am a very very long
 string that goes on for
 ever
@@ -46,6 +46,6 @@ String formatting
 print(string.format("not true = %s", tostring(not true)))
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 not true = false
 ```

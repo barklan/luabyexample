@@ -30,7 +30,7 @@ print(file:read("*a"))
 file:close()
 ```
 
-``` {.fs95 .output}
+```txt {.fs90}
 Random string of text
 Some more text
 

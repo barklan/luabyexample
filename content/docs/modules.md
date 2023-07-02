@@ -7,6 +7,8 @@ next: true
 
 A Module is like a library full of functions and variables.
 
+{{% columns %}}
+
 `info.lua`:
 
 ```lua
@@ -19,6 +21,8 @@ end
 return M
 ```
 
+<--->
+
 `main.lua`:
 
 ```lua
@@ -26,6 +30,8 @@ local info = require("info")
 
 info.valueOf("John")
 ```
+
+{{% /columns %}}
 
 <br>
 
