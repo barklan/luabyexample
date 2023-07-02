@@ -21,6 +21,13 @@ markup:
     renderer:
       unsafe: true
 
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^CI$
+      - ^LAST_COMMIT_DATE$
+
 outputs:
   home:
     - html
