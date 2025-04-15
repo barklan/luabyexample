@@ -8,11 +8,11 @@ weight: 20
 
 ## 1. Online
 
-You can try lua [interactively](https://www.lua.org/cgi-bin/demo).
+You can try lua [interactively](https://www.lua.org/demo.html).
 
 ## 4. System package
 
-There is also [LuaJIT project](https://luajit.org/) - a Just-In-Time Compiler for Lua.
+Before you should know that there is also [LuaJIT project](https://luajit.org/) - a Just-In-Time Compiler for Lua.
 It can be used as a drop-in replacement for Lua.
 
 {{< tabs >}}
@@ -25,17 +25,23 @@ brew update
 brew install lua
 ```
 
+Alternatively LuaJIT:
+
+```bash
+brew install luajit
+```
+
 {{< /tab >}}
 {{< tab "Linux" >}}
 
-On most Linux distributions Lua is available as `lua` package.
+On most Linux distributions Lua is available as `lua` and LuaJIT as `luajit` packages.
 On non-rolling distributions like Ubuntu it is preferable to
-install specific latest version, e.g. `lua5.3`.
+install specific latest version, e.g. `lua5.4`.
 
 *Debian based:*
 
 ```bash
-sudo apt update && sudo apt install lua5.3
+sudo apt update && sudo apt install lua5.4 luajit
 ```
 
 *Arch Linux:*
