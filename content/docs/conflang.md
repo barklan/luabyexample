@@ -38,5 +38,5 @@ Redis allows
 
 ## And more
 
-There is even [browser](https://github.com/luakit/luakit) and [code editor](https://github.com/rxi/lite) written in Lua.
+There is even a [web browser](https://github.com/luakit/luakit) and [code editor](https://github.com/rxi/lite) written in Lua.
 For more look at [awesome-lua](https://github.com/JaredSartin/awesome-lua) repo.
