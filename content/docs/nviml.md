@@ -11,7 +11,7 @@ powerful ["standard library"](https://neovim.io/doc/user/lua.html#_lua-standard-
 and an [event-loop](https://neovim.io/doc/user/lua.html#vim.uv)
 for asyncronous processing.
 
-You can learn about with in Neovim by invoking `:help -l`.
+You can learn more about it in Neovim by invoking `:help -l`.
 
 ### Example
 
