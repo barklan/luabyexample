@@ -8,7 +8,7 @@ menu:
       url: /
       weight: 1
     - name: Source
-      url: 'https://github.com/barklan/luabyexample'
+      url: "https://github.com/barklan/luabyexample"
       weight: 2
 
 markup:
@@ -18,15 +18,20 @@ markup:
     lineNumbersInTable: false
     noClasses: false
   goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
+        enable: true
     renderer:
       unsafe: true
-
-security:
-  funcs:
-    getenv:
-      - ^HUGO_
-      - ^CI$
-      - ^LAST_COMMIT_DATE$
 
 outputs:
   home:
