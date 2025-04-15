@@ -21,7 +21,7 @@ print(t.year)
 print(t.hour)
 ```
 
-```txt {.output .fs95}
+```console {.output}
 1641046800
 1631664000
 2021
@@ -34,7 +34,7 @@ print(t.hour)
 print(os.date("today is %A, in %B"))
 ```
 
-```txt {.fs90}
+```console {.output}
 today is Saturday, in January
 ```
 

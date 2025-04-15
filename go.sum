@@ -12,3 +12,5 @@ github.com/barklan/hugo-dead-simple v1.16.2 h1:slrf8Yyxu8Mz4UlsyePxsR3XS9q8XlbQU
 github.com/barklan/hugo-dead-simple v1.16.2/go.mod h1:Ql5njM3SwZWMqWD1bt6UQoebKHIuRt37HeEkiWMUxXo=
 github.com/barklan/hugo-dead-simple v1.59.0 h1:WndxogLR1AkY4URczeyCpEZF7pFDazvQk/K4LIJUxHI=
 github.com/barklan/hugo-dead-simple v1.59.0/go.mod h1:Ql5njM3SwZWMqWD1bt6UQoebKHIuRt37HeEkiWMUxXo=
+github.com/barklan/hugo-dead-simple v1.76.0 h1:qOZuP2BZj20b9arYoqrl2/XbPpvmR6rXgiIpESndxog=
+github.com/barklan/hugo-dead-simple v1.76.0/go.mod h1:Ql5njM3SwZWMqWD1bt6UQoebKHIuRt37HeEkiWMUxXo=

@@ -22,7 +22,7 @@ for i, v in ipairs(t) do
 end
 ```
 
-```txt {.fs90}
+```console {.output}
 3
 5
 7

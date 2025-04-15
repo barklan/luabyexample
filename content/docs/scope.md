@@ -18,7 +18,7 @@ end
 print(a)
 ```
 
-```txt {.fs90}
+```console {.output}
 nil
 ```
 
@@ -31,7 +31,7 @@ b = 10
 print(b)
 ```
 
-```txt {.fs90}
+```console {.output}
 10
 ```
 
@@ -59,7 +59,7 @@ alter_inside('b')
 alter_inside('c')
 ```
 
-```txt {.fs90}
+```console {.output}
 11      6       7
 5       11      7
 5       6       11

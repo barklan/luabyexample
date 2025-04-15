@@ -20,7 +20,7 @@ print(colors[3])
 io.write("Number of Items : ", #colors, "\n")
 ```
 
-```txt {.fs90}
+```console {.output}
 red
 green
 blue
@@ -37,7 +37,7 @@ for i=1, #colors do
 end
 ```
 
-```txt {.fs90}
+```console {.output}
 red
 green
 blue
@@ -51,7 +51,7 @@ for k, v in pairs(colors) do
 end
 ```
 
-```txt {.fs90}
+```console {.output}
 1:red
 2:green
 3:blue
@@ -67,7 +67,7 @@ local index = #colors --4 (this is the last index in the table)
 print(colors[index])
 ```
 
-```txt {.fs90}
+```console {.output}
 orange
 ```
 
@@ -81,7 +81,7 @@ for i=1, #colors do
 end
 ```
 
-```txt {.fs90}
+```console {.output}
 red
 pink
 green
@@ -98,7 +98,7 @@ for i=1, #colors do
 end
 ```
 
-```txt {.fs90}
+```console {.output}
 green
 blue
 ```

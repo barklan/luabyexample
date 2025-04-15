@@ -10,41 +10,7 @@ weight: 20
 
 You can try lua [interactively](https://www.lua.org/cgi-bin/demo).
 
-## 2. Docker
-
-Minimal docker image (~10MB):
-
-`Dockerfile`
-
-```dockerfile
-FROM alpine:3.15.0
-
-RUN apk update \
-    && apk add --no-cache lua5.4
-
-WORKDIR /workdir
-
-ENTRYPOINT [ "lua5.4" ]
-```
-
-`hello.lua`
-
-```lua
-print("Hello, World!")
-```
-
-Build and run:
-
-```bash
-docker build -t lua .
-docker run -v "$(pwd)":/workdir lua hello.lua
-```
-
-## 3. Manual install
-
-Visit [lua.org](https://www.lua.org/download.html) for detailed instructions to build Lua from source.
-
-## 4. Package
+## 4. System package
 
 There is also [LuaJIT project](https://luajit.org/) - a Just-In-Time Compiler for Lua.
 It can be used as a drop-in replacement for Lua.
@@ -94,3 +60,38 @@ package.
 
 {{< /tab >}}
 {{< /tabs >}}
+
+## 2. Docker
+
+Minimal docker image (~10MB):
+
+`Dockerfile`
+
+```dockerfile {linenos=inline}
+FROM alpine:3.15.0
+
+RUN apk update \
+    && apk add --no-cache lua5.4
+
+WORKDIR /workdir
+
+ENTRYPOINT [ "lua5.4" ]
+```
+
+`hello.lua`
+
+```lua
+print("Hello, World!")
+```
+
+Build and run:
+
+```bash
+docker build -t lua .
+docker run -v "$(pwd)":/workdir lua hello.lua
+```
+
+## 3. From source
+
+Visit [lua.org](https://www.lua.org/download.html) for detailed instructions to build Lua from source.
+

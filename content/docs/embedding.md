@@ -31,7 +31,7 @@ func main() {
 }
 ```
 
-```bash
+```console {.output}
 $ go run main.go
 Hi!
 ```

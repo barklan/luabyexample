@@ -5,7 +5,7 @@ weight: 10
 next: true
 ---
 
-```lua
+```lua {linenos=inline}
 -- This is a comment.
 print("Hello, World!")
 
@@ -15,4 +15,7 @@ print("Hello, World!")
 ]]
 ```
 
-To run the code put it in `hello.lua` and run `lua hello.lua`.
+```console {.output}
+# lua run hello.lua
+Hello, World!
+```

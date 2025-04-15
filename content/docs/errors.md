@@ -21,7 +21,7 @@ print("Status: ", status)
 print("Return Value: ", retval)
 ```
 
-```txt {.output}
+```console {.output}
 Status:         false
 Return Value:   temp.lua:2: attempt to mul a 'number' with a 'string'
 ```
@@ -41,6 +41,6 @@ result, error = foo(20)
 if result then print(result) else print(error) end
 ```
 
-```txt {.output}
+```console {.output}
 Argument 1 is not a table!
 ```

@@ -20,7 +20,7 @@ while (i <= 10) do
 end
 ```
 
-```txt {.fs90}
+```console {.output}
 1234567
 ```
 
@@ -47,6 +47,6 @@ for i = 1, 10, 1 do
 end
 ```
 
-```txt {.fs90}
+```console {.output}
 12345678910
 ```

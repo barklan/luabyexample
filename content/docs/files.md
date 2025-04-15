@@ -30,7 +30,7 @@ print(file:read("*a"))
 file:close()
 ```
 
-```txt {.fs90}
+```console {.output}
 Random string of text
 Some more text
 
@@ -41,7 +41,7 @@ Even more text
 
 There are several different ways to work with files:
 
-```txt {.output}
+```txt
 r: Read only (default)
 w: Overwrite or create a new file
 a: Append or create a new file

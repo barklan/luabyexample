@@ -31,6 +31,6 @@ local myshape = Shape:new(nil, 10)
 myshape:printArea()
 ```
 
-```txt {.fs90}
+```console {.output}
 The area is 100
 ```

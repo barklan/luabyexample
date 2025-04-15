@@ -20,7 +20,7 @@ print(co)
 print(coroutine.status(co))
 ```
 
-```txt {.fs90}
+```console {.output}
 thread: 0x5629ba941d58
 suspended
 ```
@@ -32,17 +32,15 @@ When we create a coroutine, it starts in the suspended state.
 coroutine.resume(co)
 ```
 
-```txt {.fs90}
+```console {.output}
 honk
 ```
-
-<br>
 
 ```lua
 print(coroutine.status(co))
 ```
 
-```txt {.fs90}
+```console {.output}
 dead
 ```
 

@@ -17,5 +17,8 @@ It is not an error to access a non-initialized variable; you just get the specia
 
 ```lua
 print(b)
---nil
+```
+
+```console {.output}
+nil
 ```

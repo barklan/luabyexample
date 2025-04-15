@@ -1,7 +1,7 @@
 ---
-title: "Testing"
+title: "LuaRocks: testing"
 date: "2023-07-01"
-weight: 270
+weight: 261
 next: true
 toc: true
 ---
@@ -92,7 +92,7 @@ runner:setOutputType("tap")
 os.exit( runner:runSuite() )
 ```
 
-```bash
+```console {.output}
 $ lua hello_test.lua
 1..1
 # Started on Sat Apr 23 10:23:20 2022

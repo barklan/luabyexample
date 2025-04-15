@@ -33,9 +33,12 @@ info.valueOf("John")
 
 {{% /columns %}}
 
-<br>
+Running:
 
 ```bash
-$ lua main.lua
+lua main.lua
+```
+
+```console {.output}
 Value: John
 ```

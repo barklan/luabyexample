@@ -46,7 +46,7 @@ for f in walk("src/styles") do
 end
 ```
 
-```txt {.fs90}
+```console {.output}
 src/styles/main.css
 src/styles/markdown.css
 ```
