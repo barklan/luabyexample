@@ -12,7 +12,7 @@ which explicitly permits commercial use.
 
 ## Neovim
 
-Neovim [uses Lua extensively](https://neovim.io/doc/lua-resources/) (via LuaJIT).
+Neovim [uses Lua extensively](https://neovim.io/doc/user/lua.html) (via LuaJIT).
 It can for instance load its configuration from an `init.lua` instead of the
 traditional `init.vim`. Integration with Lua has sparked a
 [huge number of plugins](https://github.com/search?l=Lua&q=neovim&type=Repositories)
