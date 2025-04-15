@@ -8,7 +8,7 @@ next: true
 Using Lua as a configuration language is often the first step toward
 a fully scriptable application.
 Lua is licensed under the [MIT license](https://www.lua.org/license.html)
-which explicitly permits commercial use. Some examples:
+which explicitly permits commercial use.
 
 ## Neovim
 
