@@ -36,6 +36,10 @@ performance web platform based on Nginx and LuaJIT.
 Redis allows
 [adding functionality with Lua](https://redis.com/ebook/part-3-next-steps/chapter-11-scripting-redis-with-lua/)
 
+## Wireshark
+
+[Lua's been added to Wireshark](https://wiki.wireshark.org/Lua) as a language for prototyping and scripting.
+
 ## And more
 
 There is even a [web browser](https://github.com/luakit/luakit) and [code editor](https://github.com/rxi/lite) written in Lua.
